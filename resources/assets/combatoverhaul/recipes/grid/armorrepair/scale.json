@@ -1,0 +1,569 @@
+[
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-scale-copper"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-copper"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-scale-tinbronze"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-tinbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-scale-bismuthbronze"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-bismuthbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-scale-blackbronze"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-scale-iron"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-iron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-scale-meteoriciron"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-meteoriciron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-scale-steel"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-steel"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-scale-copper"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-copper"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-scale-tinbronze"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-tinbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-scale-bismuthbronze"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-bismuthbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-scale-blackbronze"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-scale-iron"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-iron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-scale-meteoriciron"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-meteoriciron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-scale-steel"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-steel"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-scale-copper"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-copper"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-scale-tinbronze"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-tinbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-scale-bismuthbronze"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-bismuthbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-scale-blackbronze"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-scale-iron"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-iron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-scale-meteoriciron"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-meteoriciron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-scale-steel"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-steel"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "scale leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "side": "Server",
+    "file": "game:entities/animal/bird/chicken-adult",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 1,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 1.5,
+        "DefaultResists": {
+          "BluntAttack": 0,
+          "SlashingAttack": 0,
+          "PiercingAttack": 0
+        }
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "file": "game:entities/animal/bird/chicken-adult",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 1,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 1.5,
+        "DefaultResists": {
+          "BluntAttack": 0,
+          "SlashingAttack": 0,
+          "PiercingAttack": 0
+        }
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "file": "game:entities/animal/bird/chicken-baby",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 1,
+        "HeadDamageMultiplier": 1,
+        "CriticalDamageMultiplier": 1,
+        "DefaultResists": {
+          "BluntAttack": 0,
+          "SlashingAttack": 0,
+          "PiercingAttack": 0
+        }
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "file": "game:entities/animal/bird/chicken-baby",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 1,
+        "HeadDamageMultiplier": 1,
+        "CriticalDamageMultiplier": 1,
+        "DefaultResists": {
+          "BluntAttack": 0,
+          "SlashingAttack": 0,
+          "PiercingAttack": 0
+        }
+      }
+    }
+  }
+]

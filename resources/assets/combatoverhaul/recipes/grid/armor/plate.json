@@ -1,0 +1,576 @@
+[
+  {
+    "enabled": true,
+    "ingredientPattern": "LTL,P_P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-plate-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "LTL,P_P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze",
+        "quantity": 2
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-plate-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "LTL,P_P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze",
+        "quantity": 2
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-plate-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "LTL,P_P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze",
+        "quantity": 2
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-plate-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "LTL,P_P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 2
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-plate-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "LTL,P_P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-meteoriciron"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-meteoriciron",
+        "quantity": 2
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-plate-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "LTL,P_P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-steel",
+        "quantity": 2
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-plate-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PLP,PPP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "plate body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-plate-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PLP,PPP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "plate body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-plate-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PLP,PPP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "plate body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-plate-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PLP,PPP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "plate body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-plate-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PLP,PPP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "plate body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-plate-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PLP,PPP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-meteoriciron"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "plate body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-plate-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PLP,PPP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "plate body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-plate-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PPP,PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-plate-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PPP,PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-plate-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PPP,PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-plate-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PPP,PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-plate-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PPP,PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-plate-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PPP,PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-meteoriciron"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-plate-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "ingredientPattern": "PPP,PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "plate leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-plate-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]

@@ -1,0 +1,48 @@
+﻿[
+  {
+    "enabled": false,
+    "side": "Server",
+    "file": "game:entities/lore/bell",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {"code": "CombatOverhaul:ShowStatsBehavior", "entriesByType": {"*": [["Vulnerable to {0} damage", "Blunt"], ["Bell part of this monster is resistant to damage."]]}}
+  },
+  {
+    "side": "Server",
+    "file": "game:entities/lore/bell",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.8,
+        "HeadDamageMultiplier": 1,
+        "CriticalDamageMultiplier": 5,
+        "ResistantDamageMultiplier": 0.2,
+        "DefaultResists": {"BluntAttack": 3, "SlashingAttack": 6, "PiercingAttack": 7},
+        "HitSounds": {"Resistant": {"Code": "game:sounds/held/shieldblock-metal-light"}},
+        "HitParticles": {"Resistant": "combatoverhaul:sparkles-yellow-white"}
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "file": "game:entities/lore/bell",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.8,
+        "HeadDamageMultiplier": 1,
+        "CriticalDamageMultiplier": 5,
+        "ResistantDamageMultiplier": 0.2,
+        "DefaultResists": {"BluntAttack": 3, "SlashingAttack": 6, "PiercingAttack": 7},
+        "HitSounds": {"Resistant": {"Code": "game:sounds/held/shieldblock-metal-light"}},
+        "HitParticles": {"Resistant": "combatoverhaul:sparkles-yellow-white"}
+      }
+    }
+  }
+]

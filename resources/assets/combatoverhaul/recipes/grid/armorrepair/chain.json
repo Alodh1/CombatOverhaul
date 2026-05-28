@@ -1,0 +1,731 @@
+[
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-head-chain-copper"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-copper"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-head-chain-tinbronze"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-tinbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-head-chain-bismuthbronze"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-head-chain-blackbronze"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-head-chain-iron"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-iron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-head-chain-meteoriciron"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-meteoriciron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-head-chain-steel"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-steel"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-head-chain-gold"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-gold"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-gold",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-head-chain-silver"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-silver"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-silver",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-body-chain-copper"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-copper"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-body-chain-tinbronze"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-tinbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-body-chain-bismuthbronze"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-body-chain-blackbronze"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-body-chain-iron"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-iron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-body-chain-meteoriciron"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-meteoriciron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-body-chain-steel"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-steel"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-body-chain-gold"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-gold"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-gold",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-body-chain-silver"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-silver"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-silver",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-legs-chain-copper"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-copper"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-legs-chain-tinbronze"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-tinbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-legs-chain-bismuthbronze"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-legs-chain-blackbronze"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-legs-chain-iron"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-iron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-legs-chain-meteoriciron"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-meteoriciron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-legs-chain-steel"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-steel"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-legs-chain-gold"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-gold"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-gold",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T,C",
+    "recipeGroup": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:armor-legs-chain-silver"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-silver"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "T",
+    "averageDurability": false,
+    "name": "chain leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-silver",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]

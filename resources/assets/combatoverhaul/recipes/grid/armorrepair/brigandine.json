@@ -1,0 +1,569 @@
+[
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-brigandine-copper"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-brigandine-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-brigandine-tinbronze"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-brigandine-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-brigandine-bismuthbronze"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-brigandine-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-brigandine-blackbronze"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-brigandine-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-brigandine-iron"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-brigandine-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-brigandine-meteoriciron"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-meteoriciron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-brigandine-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-head-brigandine-steel"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine helmet repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-brigandine-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-brigandine-copper"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-brigandine-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-brigandine-tinbronze"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-brigandine-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-brigandine-bismuthbronze"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-brigandine-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-brigandine-blackbronze"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-brigandine-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-brigandine-iron"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-brigandine-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-brigandine-meteoriciron"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-meteoriciron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-brigandine-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-body-brigandine-steel"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine body armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-brigandine-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-brigandine-copper"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-brigandine-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-brigandine-tinbronze"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-brigandine-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-brigandine-bismuthbronze"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-brigandine-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-brigandine-blackbronze"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-brigandine-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-brigandine-iron"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-brigandine-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-brigandine-meteoriciron"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-meteoriciron"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-brigandine-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:armor-legs-brigandine-steel"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "brigandine leg armor repair",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-brigandine-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]

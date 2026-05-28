@@ -1,0 +1,86 @@
+[
+  {
+    "side": "server",
+    "file": "game:itemtypes/tool/blade",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-iron": [
+        { "name": "Buffable" },
+        { "name": "Quenchable", "properties": { "metalVariantgroupCode": "material" } }
+      ],
+      "*-meteoriciron": [
+        { "name": "Buffable" },
+        { "name": "Quenchable", "properties": { "metalVariantgroupCode": "material" } }
+      ],
+      "*-steel": [
+        { "name": "Buffable" },
+        { "name": "Quenchable", "properties": { "metalVariantgroupCode": "material" } }
+      ]
+    }
+  },
+  {
+    "side": "server",
+    "file": "game:itemtypes/tool/blade",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-iron": { "forgable": true, "quenchBuffKind": "weapon" },
+      "*-meteoriciron": { "forgable": true, "quenchBuffKind": "weapon" },
+      "*-steel": { "forgable": true, "quenchBuffKind": "weapon" }
+    }
+  },
+  {
+    "side": "server",
+    "file": "game:itemtypes/tool/blade",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-iron": { "meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false },
+      "*-meteoriciron": { "meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false },
+      "*-steel": { "meltingPoint": 1502, "meltingDuration": 30, "requiresContainer": false }
+    }
+  },
+  {
+    "side": "server",
+    "file": "game:itemtypes/tool/spear",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-iron": [
+        { "name": "Buffable" },
+        { "name": "Quenchable", "properties": { "metalVariantgroupCode": "material" } }
+      ],
+      "*-meteoriciron": [
+        { "name": "Buffable" },
+        { "name": "Quenchable", "properties": { "metalVariantgroupCode": "material" } }
+      ],
+      "*-steel": [
+        { "name": "Buffable" },
+        { "name": "Quenchable", "properties": { "metalVariantgroupCode": "material" } }
+      ]
+    }
+  },
+  {
+    "side": "server",
+    "file": "game:itemtypes/tool/spear",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-iron": { "forgable": true, "quenchBuffKind": "weapon" },
+      "*-meteoriciron": { "forgable": true, "quenchBuffKind": "weapon" },
+      "*-steel": { "forgable": true, "quenchBuffKind": "weapon" }
+    }
+  },
+  {
+    "side": "server",
+    "file": "game:itemtypes/tool/spear",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-iron": { "meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false },
+      "*-meteoriciron": { "meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false },
+      "*-steel": { "meltingPoint": 1502, "meltingDuration": 30, "requiresContainer": false }
+    }
+  }
+]

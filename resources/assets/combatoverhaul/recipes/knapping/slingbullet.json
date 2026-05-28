@@ -1,0 +1,184 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:stone-chert"
+    },
+    "pattern": [
+      [
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####",
+        "__________",
+        "###___####",
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####"
+      ]
+    ],
+    "name": "sling bullet",
+    "output": {
+      "type": "item",
+      "code": "combatoverhaul:slingbullet-chert",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:stone-granite"
+    },
+    "pattern": [
+      [
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####",
+        "__________",
+        "###___####",
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####"
+      ]
+    ],
+    "name": "sling bullet",
+    "output": {
+      "type": "item",
+      "code": "combatoverhaul:slingbullet-granite",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:stone-andesite"
+    },
+    "pattern": [
+      [
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####",
+        "__________",
+        "###___####",
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####"
+      ]
+    ],
+    "name": "sling bullet",
+    "output": {
+      "type": "item",
+      "code": "combatoverhaul:slingbullet-andesite",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:stone-basalt"
+    },
+    "pattern": [
+      [
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####",
+        "__________",
+        "###___####",
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####"
+      ]
+    ],
+    "name": "sling bullet",
+    "output": {
+      "type": "item",
+      "code": "combatoverhaul:slingbullet-basalt",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:stone-obsidian"
+    },
+    "pattern": [
+      [
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####",
+        "__________",
+        "###___####",
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####"
+      ]
+    ],
+    "name": "sling bullet",
+    "output": {
+      "type": "item",
+      "code": "combatoverhaul:slingbullet-obsidian",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:stone-peridotite"
+    },
+    "pattern": [
+      [
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####",
+        "__________",
+        "###___####",
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####"
+      ]
+    ],
+    "name": "sling bullet",
+    "output": {
+      "type": "item",
+      "code": "combatoverhaul:slingbullet-peridotite",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:flint"
+    },
+    "pattern": [
+      [
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####",
+        "__________",
+        "###___####",
+        "####_#####",
+        "####_#####",
+        "####_#####",
+        "###___####"
+      ]
+    ],
+    "name": "sling bullet",
+    "output": {
+      "type": "item",
+      "code": "combatoverhaul:slingbullet-flint",
+      "quantity": 4
+    }
+  }
+]

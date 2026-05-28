@@ -1,0 +1,16 @@
+[
+  {
+    "enabled": true,
+    "file": "game:entities/nonliving/mannequin",
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:ArmorStand"
+  },
+  {
+    "enabled": true,
+    "file": "game:entities/nonliving/mannequin-aged",
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:ArmorStand"
+  }
+]

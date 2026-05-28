@@ -1,0 +1,704 @@
+[
+  {
+    "ingredientPattern": "_M_,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-copper",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-copper",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "chain helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "_M_,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-tinbronze",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-tinbronze",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "chain helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "_M_,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "chain helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "_M_,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-blackbronze",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-blackbronze",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "chain helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "_M_,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-iron",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-iron",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "chain helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "_M_,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-meteoriciron",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-meteoriciron",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "chain helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "_M_,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-steel",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-steel",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "chain helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "_M_,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-gold",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-gold",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "chain helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-gold",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "_M_,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-silver",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-silver",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "chain helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-silver",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T_T,MMM,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-copper",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-copper",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T_T,MMM,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-tinbronze",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-tinbronze",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T_T,MMM,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T_T,MMM,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-blackbronze",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-blackbronze",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T_T,MMM,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-iron",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-iron",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T_T,MMM,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-meteoriciron",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-meteoriciron",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T_T,MMM,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-steel",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-steel",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T_T,MMM,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-gold",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-gold",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-gold",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "T_T,MMM,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-silver",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-silver",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-silver",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TMT,T_T,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-copper",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-copper",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TMT,T_T,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-tinbronze",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-tinbronze",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TMT,T_T,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TMT,T_T,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-blackbronze",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-blackbronze",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TMT,T_T,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-iron",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-iron",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TMT,T_T,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-meteoriciron",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-meteoriciron",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TMT,T_T,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-steel",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-steel",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TMT,T_T,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-gold",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-gold",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-gold",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TMT,T_T,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-silver",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalchain-silver",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "chain leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-silver",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]

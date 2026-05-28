@@ -1,0 +1,30 @@
+[
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:patches/.*", "path": "-/dependsOn/modid=combatoverhaul/modid", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:patches/.*", "path": "-/dependsOn/modId=combatoverhaul/modId", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:patches/.*", "path": "-/dependsOn/modID=combatoverhaul/modID", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:patches/.*", "path": "-/dependsOn/ModID=combatoverhaul/ModID", "value": "combatoverhaulfork", "side": "universal" },
+
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:compatibility/.*/patches/.*", "path": "-/dependsOn/modid=combatoverhaul/modid", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:compatibility/.*/patches/.*", "path": "-/dependsOn/modId=combatoverhaul/modId", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:compatibility/.*/patches/.*", "path": "-/dependsOn/modID=combatoverhaul/modID", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:compatibility/.*/patches/.*", "path": "-/dependsOn/ModID=combatoverhaul/ModID", "value": "combatoverhaulfork", "side": "universal" },
+
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:.*/compatibility/.*/patches/.*", "path": "-/dependsOn/modid=combatoverhaul/modid", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:.*/compatibility/.*/patches/.*", "path": "-/dependsOn/modId=combatoverhaul/modId", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:.*/compatibility/.*/patches/.*", "path": "-/dependsOn/modID=combatoverhaul/modID", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:.*/compatibility/.*/patches/.*", "path": "-/dependsOn/ModID=combatoverhaul/ModID", "value": "combatoverhaulfork", "side": "universal" },
+
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:jsonpatches/.*", "path": "-/dependsOn/modid=combatoverhaul/modid", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:jsonpatches/.*", "path": "-/dependsOn/modId=combatoverhaul/modId", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:jsonpatches/.*", "path": "-/dependsOn/modID=combatoverhaul/modID", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:jsonpatches/.*", "path": "-/dependsOn/ModID=combatoverhaul/ModID", "value": "combatoverhaulfork", "side": "universal" },
+
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:(patches|jsonpatches|compatibility/.*/patches)/.*", "path": "-/-/dependsOn/modid=combatoverhaul/modid", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:(patches|jsonpatches|compatibility/.*/patches)/.*", "path": "-/-/dependsOn/modId=combatoverhaul/modId", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:(patches|jsonpatches|compatibility/.*/patches)/.*", "path": "-/-/dependsOn/modID=combatoverhaul/modID", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:(patches|jsonpatches|compatibility/.*/patches)/.*", "path": "-/-/dependsOn/ModID=combatoverhaul/ModID", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:(patches|jsonpatches|compatibility/.*/patches)/.*", "path": "-/value/dependsOn/modid=combatoverhaul/modid", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:(patches|jsonpatches|compatibility/.*/patches)/.*", "path": "-/value/dependsOn/modId=combatoverhaul/modId", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:(patches|jsonpatches|compatibility/.*/patches)/.*", "path": "-/value/dependsOn/modID=combatoverhaul/modID", "value": "combatoverhaulfork", "side": "universal" },
+  { "enabled": true, "priority": 9999, "op": "replace", "file": "@@.*:(patches|jsonpatches|compatibility/.*/patches)/.*", "path": "-/value/dependsOn/ModID=combatoverhaul/ModID", "value": "combatoverhaulfork", "side": "universal" }
+]

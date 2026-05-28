@@ -1,0 +1,632 @@
+[
+  {
+    "ingredientPattern": "STS,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-copper",
+        "quantity": 2
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "STS,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-tinbronze",
+        "quantity": 2
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "STS,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-bismuthbronze",
+        "quantity": 2
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "STS,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-blackbronze",
+        "quantity": 2
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "STS,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-iron",
+        "quantity": 2
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "STS,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-meteoriciron",
+        "quantity": 2
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "STS,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-steel",
+        "quantity": 2
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-scale-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,SSS,TST",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-copper"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "scale body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,SSS,TST",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-tinbronze"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "scale body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,SSS,TST",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-bismuthbronze"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "scale body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,SSS,TST",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-blackbronze"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "scale body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,SSS,TST",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-iron"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "scale body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,SSS,TST",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-meteoriciron"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "scale body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,SSS,TST",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-steel"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "scale body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-scale-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,STS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-copper"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-copper",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,STS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-tinbronze"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-tinbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,STS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-bismuthbronze"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-bismuthbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,STS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-blackbronze"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-blackbronze",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,STS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-iron"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-iron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,STS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-meteoriciron"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-meteoriciron",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "SLS,STS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalscale-steel"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "scale leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-scale-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]

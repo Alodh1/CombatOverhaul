@@ -1,0 +1,2378 @@
+[
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-plain-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-blue",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-blue-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-brown",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-brown-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-gray",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-gray-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-black-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-green",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-green-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-orange",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-orange-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-pink",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-pink-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-purple",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-purple-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-red",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-red-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-white",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-white-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-yellow",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-yellow-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-plain-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-blue",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-blue",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-blue-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-brown",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-brown",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-brown-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-gray",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-gray",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-gray-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-black-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-green",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-green",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-green-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-orange",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-orange",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-orange-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-pink",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-pink",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-pink-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-purple",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-purple",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-purple-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-red",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-red",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-red-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-white",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-white",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-white-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-yellow",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-yellow",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-yellow-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-plain-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-blue",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-blue-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-brown",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-brown-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-gray",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-gray-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-black-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-green",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-green-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-orange",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-orange-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-pink",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-pink-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-purple",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-purple-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-red",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-red-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-white",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-white-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 0,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-yellow",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-steel",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-yellow-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-plain-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-blue",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-blue-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-brown",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-brown-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-gray",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-gray-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-black-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-green",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-green-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-orange",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-orange-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-pink",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-pink-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-purple",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-purple-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-red",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-red-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-white",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-white-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "TST,L_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-yellow",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "name": "gambeson helmet",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-yellow-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-plain-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-blue",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-blue",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-blue-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-brown",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-brown",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-brown-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-gray",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-gray",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-gray-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-black-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-green",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-green",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-green-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-orange",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-orange",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-orange-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-pink",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-pink",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-pink-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-purple",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-purple",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-purple-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-red",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-red",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-red-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-white",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-white",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-white-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "L_L,MMM,LSL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-yellow",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:cloth-yellow",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson body armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-yellow-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-plain-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-blue",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-blue-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-brown",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-brown-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-gray",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-gray-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-black",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-black-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-green",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-green-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-orange",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-orange-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-pink",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-pink-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-purple",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-purple-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-red",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-red-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-white",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-white-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LSL,L_L,T_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-yellow",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "combatoverhaul:sewingkit-armor-tailor-meteoriciron",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gambeson leg armor",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-yellow-linen",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]
