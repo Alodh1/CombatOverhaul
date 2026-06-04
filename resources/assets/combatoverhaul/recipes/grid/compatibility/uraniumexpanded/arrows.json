@@ -1,0 +1,62 @@
+[
+  {
+    "ingredientPattern": "H,S,F",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:arrowhead-uraniumsteel"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stick"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:feather"
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "game:arrow-uraniumsteel",
+      "quantity": 1
+    },
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "uraniumexpanded"
+      }
+    ]
+  },
+  {
+    "ingredientPattern": "H,S,F",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:arrowhead-ferrousuranium"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stick"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:feather"
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "game:arrow-ferrousuranium",
+      "quantity": 1
+    },
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "uraniumexpanded"
+      }
+    ]
+  }
+]

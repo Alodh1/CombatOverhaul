@@ -1,0 +1,780 @@
+[
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonjerkin",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "dragonjerkin-body-ruby": {
+            "Layers": ["Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 3,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.03,
+              "steadyAim": -0.05,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.05
+            }
+          },
+          "dragonjerkin-body-sapphire": {
+            "Layers": ["Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 3,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.03,
+              "steadyAim": -0.05,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.05
+            }
+          },
+          "dragonjerkin-body-scorched": {
+            "Layers": ["Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 3,
+              "SlashingAttack": 4,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.03,
+              "steadyAim": -0.05,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.05
+            }
+          },
+          "dragonjerkin-legs-ruby": {
+            "Layers": ["Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 3,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.03
+            }
+          },
+          "dragonjerkin-legs-sapphire": {
+            "Layers": ["Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 3,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.03
+            }
+          },
+          "dragonjerkin-legs-scorched": {
+            "Layers": ["Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 3,
+              "SlashingAttack": 4,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.03
+            }
+          }
+        }
+      },
+      { "name": "CombatOverhaul:WearableArmor" },
+      { "name": "Wearable" }
+    ]
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonjerkin",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "value": {
+      "dragonjerkin-body-ruby": 3600,
+      "dragonjerkin-body-sapphire": 3600,
+      "dragonjerkin-body-scorched": 4800,
+      "dragonjerkin-legs-ruby": 2400,
+      "dragonjerkin-legs-sapphire": 2400,
+      "dragonjerkin-legs-scorched": 3200
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonjerkin",
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonjerkin",
+    "op": "add",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonjerkin",
+    "op": "addmerge",
+    "path": "/class",
+    "value": "Item"
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonjerkin",
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": {
+      "dragonjerkin-body-*": 12,
+      "dragonjerkin-legs-*": 8
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonarmor",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "dragonarmor-head-ruby": {
+            "Layers": ["Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 5,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.06,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.09
+            }
+          },
+          "dragonarmor-head-sapphire": {
+            "Layers": ["Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 5,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.06,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.09
+            }
+          },
+          "dragonarmor-head-scorched": {
+            "Layers": ["Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.06,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.09
+            }
+          },
+          "dragonarmor-body-ruby": {
+            "Layers": ["Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 5,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.04,
+              "manipulationSpeed": -0.1,
+              "steadyAim": -0.17,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.09
+            }
+          },
+          "dragonarmor-body-sapphire": {
+            "Layers": ["Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 5,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.04,
+              "manipulationSpeed": -0.1,
+              "steadyAim": -0.17,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.09
+            }
+          },
+          "dragonarmor-body-scorched": {
+            "Layers": ["Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.04,
+              "manipulationSpeed": -0.1,
+              "steadyAim": -0.17,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.09
+            }
+          },
+          "dragonarmor-legs-ruby": {
+            "Layers": ["Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 5,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.1,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          },
+          "dragonarmor-legs-sapphire": {
+            "Layers": ["Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 5,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.1,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          },
+          "dragonarmor-legs-scorched": {
+            "Layers": ["Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.1,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          }
+        }
+      },
+      { "name": "CombatOverhaul:WearableArmor" },
+      { "name": "Wearable" }
+    ]
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonarmor",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "value": {
+      "dragonarmor-head-ruby": 3000,
+      "dragonarmor-head-sapphire": 3000,
+      "dragonarmor-head-scorched": 4200,
+      "dragonarmor-body-ruby": 9000,
+      "dragonarmor-body-sapphire": 9000,
+      "dragonarmor-body-scorched": 12600,
+      "dragonarmor-legs-ruby": 6000,
+      "dragonarmor-legs-sapphire": 6000,
+      "dragonarmor-legs-scorched": 8400
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonarmor",
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonarmor",
+    "op": "add",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonarmor",
+    "op": "addmerge",
+    "path": "/class",
+    "value": "Item"
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonarmor",
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": {
+      "dragonarmor-head-*": 8,
+      "dragonarmor-body-*": 16,
+      "dragonarmor-legs-*": 8
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonbrigandine",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "dragonbrigandine-head-*iron-*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 6
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.1,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+          "dragonbrigandine-body-*iron-*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 6
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.05,
+              "manipulationSpeed": -0.2,
+              "steadyAim": -0.3,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+          "dragonbrigandine-legs-*iron-*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 6,
+              "BluntAttack": 6
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.2,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
+            }
+          },
+          "dragonbrigandine-head-steel-*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.1,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+          "dragonbrigandine-body-steel-*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.05,
+              "manipulationSpeed": -0.2,
+              "steadyAim": -0.3,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+          "dragonbrigandine-legs-steel-*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.2,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
+            }
+          }
+        }
+      },
+      { "name": "CombatOverhaul:WearableArmor" },
+      { "name": "Wearable" }
+    ]
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonbrigandine",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "value": {
+      "dragonbrigandine-head-iron-ruby": 3200,
+      "dragonbrigandine-head-iron-sapphire": 3200,
+      "dragonbrigandine-head-iron-scorched": 3600,
+      "dragonbrigandine-body-iron-ruby": 9600,
+      "dragonbrigandine-body-iron-sapphire": 9600,
+      "dragonbrigandine-body-iron-scorched": 10800,
+      "dragonbrigandine-legs-iron-ruby": 6400,
+      "dragonbrigandine-legs-iron-sapphire": 6400,
+      "dragonbrigandine-legs-iron-scorched": 7200,
+      "dragonbrigandine-head-meteoriciron-ruby": 3800,
+      "dragonbrigandine-head-meteoriciron-sapphire": 3800,
+      "dragonbrigandine-head-meteoriciron-scorched": 4200,
+      "dragonbrigandine-body-meteoriciron-ruby": 11400,
+      "dragonbrigandine-body-meteoriciron-sapphire": 11400,
+      "dragonbrigandine-body-meteoriciron-scorched": 12600,
+      "dragonbrigandine-legs-meteoriciron-ruby": 7600,
+      "dragonbrigandine-legs-meteoriciron-sapphire": 7600,
+      "dragonbrigandine-legs-meteoriciron-scorched": 8400,
+      "dragonbrigandine-head-steel-ruby": 6500,
+      "dragonbrigandine-head-steel-sapphire": 6500,
+      "dragonbrigandine-head-steel-scorched": 7000,
+      "dragonbrigandine-body-steel-ruby": 19500,
+      "dragonbrigandine-body-steel-sapphire": 19500,
+      "dragonbrigandine-body-steel-scorched": 21000,
+      "dragonbrigandine-legs-steel-ruby": 13000,
+      "dragonbrigandine-legs-steel-sapphire": 13000,
+      "dragonbrigandine-legs-steel-scorched": 14000
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonbrigandine",
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonbrigandine",
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonbrigandine",
+    "op": "addmerge",
+    "path": "/class",
+    "value": "Item"
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/dragonbrigandine",
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": {
+      "dragonbrigandine-head-*": 8,
+      "dragonbrigandine-body-*": 16,
+      "dragonbrigandine-legs-*": 8
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/draconicgreathelm",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "draconicgreathelm-head-iron-ruby": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.14,
+              "healingeffectivness": -0.12,
+              "hungerrate": 0.14
+            }
+          },
+          "draconicgreathelm-head-iron-sapphire": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.14,
+              "healingeffectivness": -0.12,
+              "hungerrate": 0.14
+            }
+          },
+          "draconicgreathelm-head-iron-scorched": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.14,
+              "healingeffectivness": -0.12,
+              "hungerrate": 0.14
+            }
+          },
+          "draconicgreathelm-head-meteoriciron-ruby": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.14,
+              "healingeffectivness": -0.12,
+              "hungerrate": 0.14
+            }
+          },
+          "draconicgreathelm-head-meteoriciron-sapphire": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.14,
+              "healingeffectivness": -0.12,
+              "hungerrate": 0.14
+            }
+          },
+          "draconicgreathelm-head-meteoriciron-scorched": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 8,
+              "BluntAttack": 9
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.14,
+              "healingeffectivness": -0.12,
+              "hungerrate": 0.14
+            }
+          },
+          "draconicgreathelm-head-steel-ruby": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 9
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.14,
+              "healingeffectivness": -0.12,
+              "hungerrate": 0.14
+            }
+          },
+          "draconicgreathelm-head-steel-sapphire": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 9
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.14,
+              "healingeffectivness": -0.12,
+              "hungerrate": 0.14
+            }
+          },
+          "draconicgreathelm-head-steel-scorched": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 9,
+              "BluntAttack": 9
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.14,
+              "healingeffectivness": -0.12,
+              "hungerrate": 0.14
+            }
+          }
+        }
+      },
+      { "name": "CombatOverhaul:WearableArmor" },
+      { "name": "Wearable" }
+    ]
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/draconicgreathelm",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "value": {
+      "draconicgreathelm-head-iron-ruby": 6000,
+      "draconicgreathelm-head-iron-sapphire": 6000,
+      "draconicgreathelm-head-iron-scorched": 6700,
+      "draconicgreathelm-head-meteoriciron-ruby": 7500,
+      "draconicgreathelm-head-meteoriciron-sapphire": 7500,
+      "draconicgreathelm-head-meteoriciron-scorched": 8000,
+      "draconicgreathelm-head-steel-ruby": 13000,
+      "draconicgreathelm-head-steel-sapphire": 13000,
+      "draconicgreathelm-head-steel-scorched": 14500
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/draconicgreathelm",
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/draconicgreathelm",
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/draconicgreathelm",
+    "op": "addmerge",
+    "path": "/class",
+    "value": "Item"
+  },
+  {
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "file": "fantasycreatures:itemtypes/wearable/seraph/draconicgreathelm",
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": {
+      "draconicgreathelm-head-*": 8
+    }
+  }
+]

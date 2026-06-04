@@ -1,0 +1,82 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "meteoricsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/shapeByType/blade-falx-meteoricsteel",
+    "value": {
+      "base": "item/tool/blade/falx/meteoricsteel"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/durabilitybytype/blade-falx-meteoricsteel",
+    "value": 2750
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType/*-meteoricsteel",
+    "value": {
+      "DamageType": "SlashingAttack",
+      "Tier": 7,
+      "Damage": 5.5
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/attributes/OneHandedStanceByType/*-falx-*/Riposte/DamageTypes/0/DamageByType/*-meteoricsteel",
+    "value": {
+      "DamageType": "SlashingAttack",
+      "Tier": 7,
+      "Damage": 8.5
+    }
+  }
+]

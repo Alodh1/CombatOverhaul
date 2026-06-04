@@ -1,0 +1,34 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "addmerge",
+    "path": "/shapeByType/armor-head-scale-meteoricsteel",
+    "value": {
+      "base": "game:combatoverhaul/armor/scale/head-meteoricsteel"
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "addmerge",
+    "path": "/shapeByType/armor-head-plate-meteoricsteel",
+    "value": {
+      "base": "game:combatoverhaul/armor/plate/head-meteoricsteel"
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ]
+  }
+]

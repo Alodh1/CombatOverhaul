@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <!-- Mod info -->
   <PropertyGroup>
     <ModName>Combat Overhaul</ModName>
     <ModType>code</ModType>
-    <ModVersion>0.17.49</ModVersion>
+    <ModVersion>0.17.50</ModVersion>
     <ModId>combatoverhaulfork</ModId>
     <Description></Description>
     <Side>universal</Side>
@@ -37,76 +37,79 @@
   <!-- Paths -->
   <PropertyGroup>
     <ProjectDir>$(MSBuildProjectDirectory)</ProjectDir>
-    <OutputDir>bin\$(Configuration)\Mods</OutputDir>
-    <OutputPath>$(OutputDir)\$(ModId)</OutputPath>
-    <GameDirectory Condition="'$(GameDirectory)' == ''">$(VINTAGE_STORY)</GameDirectory>
-    <AssetsDir>$(ProjectDir)\resources\assets</AssetsDir>
-    <ModIconFile>$(ProjectDir)\resources\modicon.png</ModIconFile>
-    <ReleasesDir>$(ProjectDir)\Releases</ReleasesDir>
+    <OutputDir>bin/$(Configuration)/Mods</OutputDir>
+    <OutputPath>$(OutputDir)/$(ModId)</OutputPath>
+    <GameDirectory Condition="'$(GameDirectory)' == '' and '$(VINTAGE_STORY)' != ''">$(VINTAGE_STORY)</GameDirectory>
+    <AssetsDir>$(ProjectDir)/resources/assets</AssetsDir>
+    <ModIconFile>$(ProjectDir)/resources/modicon.png</ModIconFile>
+    <ReleasesDir>$(ProjectDir)/Releases</ReleasesDir>
     <ReleaseFile>$(ModId)_$(ModVersion)</ReleaseFile>
-    <ReleasePath>$(ReleasesDir)\$(ReleaseFile).zip</ReleasePath>
-    <ReleasePathDev>$(ReleasesDir)\$(ReleaseFile)_dev.zip</ReleasePathDev>
-    <ExternalLibDir>$(ProjectDir)\external</ExternalLibDir>
+    <ReleasePath>$(ReleasesDir)/$(ReleaseFile).zip</ReleasePath>
+    <ReleasePathDev>$(ReleasesDir)/$(ReleaseFile)_dev.zip</ReleasePathDev>
+    <ExternalLibDir>$(ProjectDir)/external</ExternalLibDir>
   </PropertyGroup>
 
   <!-- Startup settings -->
   <PropertyGroup>
-    <DataFolderName>VintagestoryDataDev</DataFolderName>               
-    <DataFolder>$(AppData)\$(DataFolderName)</DataFolder>
-    <AditionalModsFolder>$(AppData)\$(DataFolderName)\Mods</AditionalModsFolder>
+    <DataFolderName>VintagestoryDataDev</DataFolderName>
+    <AppDataDir Condition="'$(AppDataDir)' == '' and '$(APPDATA)' != ''">$(APPDATA)</AppDataDir>
+    <AppDataDir Condition="'$(AppDataDir)' == '' and '$(HOME)' != ''">$(HOME)/.config</AppDataDir>               
+    <DataFolder>$(AppDataDir)/$(DataFolderName)</DataFolder>
+    <AditionalModsFolder>$(AppDataDir)/$(DataFolderName)/Mods</AditionalModsFolder>
     <WorldName>test_$(ModId)</WorldName>
-    <ModDir>$(ProjectDir)\$(OutputDir)</ModDir>
+    <ModDir>$(ProjectDir)/$(OutputDir)</ModDir>
   </PropertyGroup>
 
   <!-- Formatting JSON files -->
   <PropertyGroup>
-    <Scripts>$(ProjectDir)\scripts</Scripts>
-    <Formatter>$(Scripts)\formatter.py</Formatter>
+    <Scripts>$(ProjectDir)/scripts</Scripts>
+    <Formatter>$(Scripts)/formatter.py</Formatter>
+    <Packager>$(Scripts)/package_zip.py</Packager>
     <RunFormatter>false</RunFormatter>
   </PropertyGroup>
   <ItemGroup>
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\blocktypes" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\itemtypes" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\jsonpatches" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\patches" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\entities" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\config\animations" />
-    <AssetsToFormat Include="$(AssetsDir)\game\itemtypes" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/blocktypes" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/itemtypes" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/jsonpatches" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/patches" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/entities" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/config/animations" />
+    <AssetsToFormat Include="$(AssetsDir)/game/itemtypes" />
   </ItemGroup>
 
   <!-- References to libraries that are being used in project -->
   <ItemGroup>
     <PackageReference Include="VSImGui" Version="0.0.6" />
     <Reference Include="$(GameDirectory)/**/*.dll" Private="false" />
-    <Reference Include="animationslib" Private="false" Condition="Exists('$(ExternalLibDir)\animationslib.dll')">
-      <HintPath>$(ExternalLibDir)\animationslib.dll</HintPath>
+    <Reference Include="animationslib" Private="false" Condition="Exists('$(ExternalLibDir)/animationslib.dll')">
+      <HintPath>$(ExternalLibDir)/animationslib.dll</HintPath>
     </Reference>
-    <Reference Include="configlib" Private="false" Condition="Exists('$(ExternalLibDir)\configlib.dll')">
-      <HintPath>$(ExternalLibDir)\configlib.dll</HintPath>
+    <Reference Include="configlib" Private="false" Condition="Exists('$(ExternalLibDir)/configlib.dll')">
+      <HintPath>$(ExternalLibDir)/configlib.dll</HintPath>
     </Reference>
   
     <!-- Compile against Overhaullib Legacy Compat only. Do not use original overhaullib. -->
-    <Reference Include="OverhaullibLegacyCompat" Private="false" Condition="Exists('$(ExternalLibDir)\OverhaullibLegacyCompat.dll')">
-      <HintPath>$(ExternalLibDir)\OverhaullibLegacyCompat.dll</HintPath>
+    <Reference Include="OverhaullibLegacyCompat" Private="false" Condition="Exists('$(ExternalLibDir)/OverhaullibLegacyCompat.dll')">
+      <HintPath>$(ExternalLibDir)/OverhaullibLegacyCompat.dll</HintPath>
     </Reference>
-    <Reference Include="OverhaullibLegacyCompat" Private="false" Condition="!Exists('$(ExternalLibDir)\OverhaullibLegacyCompat.dll') and Exists('$(ProjectDir)\OverhaullibLegacyCompat.dll')">
-      <HintPath>$(ProjectDir)\OverhaullibLegacyCompat.dll</HintPath>
+    <Reference Include="OverhaullibLegacyCompat" Private="false" Condition="!Exists('$(ExternalLibDir)/OverhaullibLegacyCompat.dll') and Exists('$(ProjectDir)/OverhaullibLegacyCompat.dll')">
+      <HintPath>$(ProjectDir)/OverhaullibLegacyCompat.dll</HintPath>
     </Reference>
-    <Reference Include="OverhaullibLegacyCompat" Private="false" Condition="!Exists('$(ExternalLibDir)\OverhaullibLegacyCompat.dll') and !Exists('$(ProjectDir)\OverhaullibLegacyCompat.dll') and Exists('$(ProjectDir)\..\OverhaullibLegacy\bin\Release\Mods\overhaulliblegacycompat\OverhaullibLegacyCompat.dll')">
-      <HintPath>$(ProjectDir)\..\OverhaullibLegacy\bin\Release\Mods\overhaulliblegacycompat\OverhaullibLegacyCompat.dll</HintPath>
+    <Reference Include="OverhaullibLegacyCompat" Private="false" Condition="!Exists('$(ExternalLibDir)/OverhaullibLegacyCompat.dll') and !Exists('$(ProjectDir)/OverhaullibLegacyCompat.dll') and Exists('$(ProjectDir)/../OverhaullibLegacy/bin/Release/Mods/overhaulliblegacycompat/OverhaullibLegacyCompat.dll')">
+      <HintPath>$(ProjectDir)/../OverhaullibLegacy/bin/Release/Mods/overhaulliblegacycompat/OverhaullibLegacyCompat.dll</HintPath>
     </Reference>
-    <Reference Include="OverhaullibLegacyCompat" Private="false" Condition="!Exists('$(ExternalLibDir)\OverhaullibLegacyCompat.dll') and !Exists('$(ProjectDir)\OverhaullibLegacyCompat.dll') and !Exists('$(ProjectDir)\..\OverhaullibLegacy\bin\Release\Mods\overhaulliblegacycompat\OverhaullibLegacyCompat.dll') and Exists('$(ProjectDir)\..\OverhaullibLegacy_temperfix\bin\Release\Mods\overhaulliblegacycompat\OverhaullibLegacyCompat.dll')">
-      <HintPath>$(ProjectDir)\..\OverhaullibLegacy_temperfix\bin\Release\Mods\overhaulliblegacycompat\OverhaullibLegacyCompat.dll</HintPath>
+    <Reference Include="OverhaullibLegacyCompat" Private="false" Condition="!Exists('$(ExternalLibDir)/OverhaullibLegacyCompat.dll') and !Exists('$(ProjectDir)/OverhaullibLegacyCompat.dll') and !Exists('$(ProjectDir)/../OverhaullibLegacy/bin/Release/Mods/overhaulliblegacycompat/OverhaullibLegacyCompat.dll') and Exists('$(ProjectDir)/../OverhaullibLegacy_temperfix/bin/Release/Mods/overhaulliblegacycompat/OverhaullibLegacyCompat.dll')">
+      <HintPath>$(ProjectDir)/../OverhaullibLegacy_temperfix/bin/Release/Mods/overhaulliblegacycompat/OverhaullibLegacyCompat.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="resources\assets\armory\itemtypes\" />
-    <Folder Include="resources\assets\combatoverhaul\shapes\armor\hide\" />
-    <Folder Include="resources\assets\combatoverhaul\shapes\weapons\ruined\" />
-    <Folder Include="resources\assets\combatoverhaul\shapes\weapons\slings\" />
-    <Folder Include="resources\assets\combatoverhaul\shapes\weapons\spears\attached\" />
-    <Folder Include="resources\assets\combatoverhaul\textures\sloticons\" />
-    <Folder Include="resources\assets\game\itemtypes\combatoverhaul\ruined\" />
+    <Folder Include="resources/assets/armory/itemtypes/" />
+    <Folder Include="resources/assets/combatoverhaul/shapes/armor/hide/" />
+    <Folder Include="resources/assets/combatoverhaul/shapes/weapons/ruined/" />
+    <Folder Include="resources/assets/combatoverhaul/shapes/weapons/slings/" />
+    <Folder Include="resources/assets/combatoverhaul/shapes/weapons/spears/attached/" />
+    <Folder Include="resources/assets/combatoverhaul/textures/sloticons/" />
+    <Folder Include="resources/assets/game/itemtypes/combatoverhaul/ruined/" />
   </ItemGroup>
 
   <!-- Forces rebuild -->
@@ -145,18 +148,18 @@
 
   <!-- Formats asssets files -->
   <Target Name="Format" AfterTargets="ModInfo" BeforeTargets="CopyFilesToOutput">
-    <Exec Condition="'$(RunFormatter)' == 'true'" Command="python $(Formatter) -a -d %(AssetsToFormat.Identity)" />
+    <Exec Condition="'$(RunFormatter)' == 'true'" Command="python &quot;$(Formatter)&quot; -a -d &quot;%(AssetsToFormat.Identity)&quot;" />
   </Target>
 
   <!-- Copies modicon, assets folder and native libraries if they exist into output directory -->
   <Target Name="CopyFilesToOutput" AfterTargets="Format" BeforeTargets="BeforeBuild">
     <ItemGroup>
-      <AssetsFolder Include="$(AssetsDir)\**\*.*" />
+      <AssetsFolder Include="$(AssetsDir)/**/*.*" />
       <ModIcon Include="$(ModIconFile)" />
     </ItemGroup>
-    <RemoveDir Directories="$(OutputPath)assets" />
+    <RemoveDir Directories="$(OutputPath)/assets" />
     <Copy SourceFiles="@(ModIcon)" DestinationFolder="$(OutputPath)" Condition="Exists('$(ModIconFile)')" OverwriteReadOnlyFiles="true" />
-    <Copy SourceFiles="@(AssetsFolder)" DestinationFiles="@(AssetsFolder->'$(OutputPath)assets\%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('$(AssetsDir)')" />
+    <Copy SourceFiles="@(AssetsFolder)" DestinationFiles="@(AssetsFolder->'$(OutputPath)/assets/%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('$(AssetsDir)')" />
   </Target>
 
   <!-- Archives output directory into zip and puts it into Releases folder -->
@@ -164,12 +167,12 @@
     <Message Text="Pachaging into '$(ReleaseFile)'" Importance="high" />
     <MakeDir Directories="$(ReleasesDir)" />
     <Delete Files="$(ReleasePath)" />
-    <ZipDirectory SourceDirectory="$(OutputPath)" DestinationFile="$(ReleasePath)" />
+    <Exec Command="python &quot;$(Packager)&quot; &quot;$(OutputPath).&quot; &quot;$(ReleasePath)&quot;" />
   </Target>
   <Target Name="ZipFilesDev" AfterTargets="Build" Condition=" '$(Configuration)' == 'Debug' ">
     <Message Text="Pachaging into '$(ReleaseFile)'" Importance="high" />
     <MakeDir Directories="$(ReleasesDir)" />
     <Delete Files="$(ReleasePathDev)" />
-    <ZipDirectory SourceDirectory="$(OutputPath)" DestinationFile="$(ReleasePathDev)" />
+    <Exec Command="python &quot;$(Packager)&quot; &quot;$(OutputPath).&quot; &quot;$(ReleasePathDev)&quot;" />
   </Target>
 </Project>

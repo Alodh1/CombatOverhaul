@@ -1,0 +1,334 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "uraniumsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "ferrousuranium"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/shapeByType/spear-generic-uraniumsteel",
+    "value": {
+      "base": "combatoverhaul:weapons/spears/spear-uraniumsteel"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/shapeByType/spear-generic-ferrousuranium",
+    "value": {
+      "base": "combatoverhaul:weapons/spears/spear-ferrousuranium"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/texturesByType/spear-generic-uraniumsteel",
+    "value": {
+      "ingot": {
+        "base": "game:block/metal/ingot/uraniumsteel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/texturesByType/spear-generic-ferrousuranium",
+    "value": {
+      "ingot": {
+        "base": "game:block/metal/ingot/ferrousuranium"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/durabilitybytype/*-uraniumsteel",
+    "value": 2525
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/durabilitybytype/*-ferrousuranium",
+    "value": 750
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes/DamageStatTemplates/1h-spearhead/TierByType/*-uraniumsteel",
+    "value": 7
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes/DamageStatTemplates/1h-spearhead/TierByType/*-ferrousuranium",
+    "value": 5
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes/DamageStatTemplates/1.5h-spearhead/TierByType/*-uraniumsteel",
+    "value": 7
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes/DamageStatTemplates/1.5h-spearhead/TierByType/*-ferrousuranium",
+    "value": 5
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes/DamageStatTemplates/2h-spearhead/TierByType/*-uraniumsteel",
+    "value": 7
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes/DamageStatTemplates/2h-spearhead/TierByType/*-ferrousuranium",
+    "value": 5
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/tool/spear",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "spear-generic-uraniumsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/tool/spear",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "spear-generic-ferrousuranium"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "uraniumsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/client/shapeByType/spear-generic-uraniumsteel",
+    "value": {
+      "base": "combatoverhaul:weapons/spears/spear-uraniumsteel"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/client/texturesByType/spear-generic-uraniumsteel",
+    "value": {
+      "ingot": {
+        "base": "game:block/metal/ingot/uraniumsteel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "ferrousuranium"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/client/shapeByType/spear-generic-ferrousuranium",
+    "value": {
+      "base": "combatoverhaul:weapons/spears/spear-ferrousuranium"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/client/texturesByType/spear-generic-ferrousuranium",
+    "value": {
+      "ingot": {
+        "base": "game:block/metal/ingot/ferrousuranium"
+      }
+    }
+  }
+]

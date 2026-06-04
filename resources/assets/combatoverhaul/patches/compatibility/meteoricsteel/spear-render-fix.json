@@ -1,0 +1,168 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "meteoricsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/shapeByType/spear-generic-meteoricsteel",
+    "value": {
+      "base": "combatoverhaul:weapons/spears/spear-meteoricsteel"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/texturesByType/spear-generic-meteoricsteel",
+    "value": {
+      "ingot": {
+        "base": "game:block/metal/ingot/meteoricsteel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/durabilitybytype/spear-generic-meteoricsteel",
+    "value": 800
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes/DamageStatTemplates/1h-spearhead/TierByType/*-meteoricsteel",
+    "value": 6
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes/DamageStatTemplates/1.5h-spearhead/TierByType/*-meteoricsteel",
+    "value": 6
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes/DamageStatTemplates/2h-spearhead/TierByType/*-meteoricsteel",
+    "value": 6
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/tool/spear",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "spear-generic-meteoricsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "meteoricsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/client/shapeByType/spear-generic-meteoricsteel",
+    "value": {
+      "base": "combatoverhaul:weapons/spears/spear-meteoricsteel"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/client/texturesByType/spear-generic-meteoricsteel",
+    "value": {
+      "ingot": {
+        "base": "game:block/metal/ingot/meteoricsteel"
+      }
+    }
+  }
+]

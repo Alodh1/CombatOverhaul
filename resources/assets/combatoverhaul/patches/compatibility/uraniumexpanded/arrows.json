@@ -1,0 +1,193 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/tool/arrow",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "*-uraniumsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/tool/arrow",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "*-ferrousuranium"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "uraniumsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/behaviors/1/properties/stats/DamageStatsByType",
+    "value": {
+      "*-uraniumsteel": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4
+      },
+      "*-ferrousuranium": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/behaviors/1/properties/stats/DamageTierBonusByType",
+    "value": {
+      "*-uraniumsteel": 3,
+      "*-ferrousuranium": 2
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/behaviors/1/properties/stats/DropChanceByType",
+    "value": {
+      "*-uraniumsteel": 0.995,
+      "*-ferrousuranium": 0.99
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*-uraniumsteel": {
+        "material": {
+          "base": "game:block/metal/ingot/uraniumsteel"
+        }
+      },
+      "*-ferrousuranium": {
+        "material": {
+          "base": "game:block/metal/ingot/ferrousuranium"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "combatoverhaul:entities/arrow",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "uraniumsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "combatoverhaul:entities/arrow",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "combatoverhaul:entities/arrow",
+    "op": "addmerge",
+    "path": "/client/texturesByType",
+    "value": {
+      "*-uraniumsteel": {
+        "material": {
+          "base": "game:block/metal/ingot/uraniumsteel"
+        }
+      },
+      "*-ferrousuranium": {
+        "material": {
+          "base": "game:block/metal/ingot/ferrousuranium"
+        }
+      }
+    }
+  }
+]

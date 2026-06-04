@@ -1,0 +1,524 @@
+[
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/.*",
+    "path": "-/dependsOn/modid=fantasycreatures/modid",
+    "value": "fantasycreaturesupdate",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/cavegoblin.json",
+    "path": "/4/path",
+    "value": "/server/behaviors/6/aitasks/2/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/cavegoblin.json",
+    "path": "/5/path",
+    "value": "/server/behaviors/6/aitasks/2/damageTierByType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/cavegoblin.json",
+    "path": "/10/path",
+    "value": "/server/behaviors/6/aitasksByType/surfacegoblin-hunter/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/cavegoblin.json",
+    "path": "/11/path",
+    "value": "/server/behaviors/6/aitasksByType/surfacegoblin-hunter/1/damageTier",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/cavegoblin.json",
+    "path": "/12/path",
+    "value": "/server/behaviors/6/aitasksByType/surfacegoblin-pelted/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/cavegoblin.json",
+    "path": "/13/path",
+    "value": "/server/behaviors/6/aitasksByType/surfacegoblin-pelted/1/damageTier",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/cavegoblin.json",
+    "path": "/14/path",
+    "value": "/server/behaviors/6/aitasksByType/surfacegoblin-*/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/cavegoblin.json",
+    "path": "/15/path",
+    "value": "/server/behaviors/6/aitasksByType/surfacegoblin-*/1/damageTierByType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/8/op",
+    "value": "replace",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/8/path",
+    "value": "/server/behaviors/7/aitasksByType/dragon-red/0/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/8/value",
+    "value": "SlashingAttack",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/9/path",
+    "value": "/server/behaviors/7/aitasksByType/dragon-red/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/9/value",
+    "value": "Fire",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/10/op",
+    "value": "replace",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/10/path",
+    "value": "/server/behaviors/7/aitasksByType/dragon-red/2/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/10/value",
+    "value": "BluntAttack",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/11/op",
+    "value": "replace",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/11/path",
+    "value": "/server/behaviors/7/aitasksByType/dragon-red/0/damageTierByType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/11/value",
+    "value": { "*": 7 },
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/12/path",
+    "value": "/server/behaviors/7/aitasksByType/dragon-red/1/damageTierByType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/12/value",
+    "value": { "*": 6 },
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/13/op",
+    "value": "replace",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/13/path",
+    "value": "/server/behaviors/7/aitasksByType/dragon-red/2/damageTier",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "add",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/-",
+    "value": {
+      "side": "Server",
+      "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+      "file": "fantasycreatures:entities/land/dragon",
+      "op": "replace",
+      "path": "/server/behaviors/7/aitasksByType/dragon-scorched/0/damageType",
+      "value": "SlashingAttack"
+    },
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "add",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/-",
+    "value": {
+      "side": "Server",
+      "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+      "file": "fantasycreatures:entities/land/dragon",
+      "op": "replace",
+      "path": "/server/behaviors/7/aitasksByType/dragon-scorched/1/damageType",
+      "value": "Fire"
+    },
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "add",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/-",
+    "value": {
+      "side": "Server",
+      "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+      "file": "fantasycreatures:entities/land/dragon",
+      "op": "replace",
+      "path": "/server/behaviors/7/aitasksByType/dragon-scorched/2/damageType",
+      "value": "BluntAttack"
+    },
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "add",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/-",
+    "value": {
+      "side": "Server",
+      "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+      "file": "fantasycreatures:entities/land/dragon",
+      "op": "replace",
+      "path": "/server/behaviors/7/aitasksByType/dragon-scorched/0/damageTierByType",
+      "value": { "*": 7 }
+    },
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "add",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/-",
+    "value": {
+      "side": "Server",
+      "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+      "file": "fantasycreatures:entities/land/dragon",
+      "op": "replace",
+      "path": "/server/behaviors/7/aitasksByType/dragon-scorched/1/damageTierByType",
+      "value": { "*": 6 }
+    },
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "add",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/dragon.json",
+    "path": "/-",
+    "value": {
+      "side": "Server",
+      "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+      "file": "fantasycreatures:entities/land/dragon",
+      "op": "replace",
+      "path": "/server/behaviors/7/aitasksByType/dragon-scorched/2/damageTier",
+      "value": 6
+    },
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/ent-shepherd.json",
+    "path": "/4/path",
+    "value": "/server/behaviors/5/aitasks/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/ent-shepherd.json",
+    "path": "/5/path",
+    "value": "/server/behaviors/5/aitasks/1/damageTier",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/lonehuntergoblin.json",
+    "path": "/4/path",
+    "value": "/server/behaviors/6/aitasks/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/lonehuntergoblin.json",
+    "path": "/5/path",
+    "value": "/server/behaviors/6/aitasks/1/damageTierByType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/ork.json",
+    "path": "/4/path",
+    "value": "/server/behaviors/6/aitasksByType/ork-*/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/ork.json",
+    "path": "/5/path",
+    "value": "/server/behaviors/6/aitasksByType/ork-*/1/damageTier",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/skeleton.json",
+    "path": "/4/path",
+    "value": "/server/behaviors/5/aitasks/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/skeleton.json",
+    "path": "/5/path",
+    "value": "/server/behaviors/5/aitasks/1/damageTierByType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/skeleton.json",
+    "path": "/10/path",
+    "value": "/server/behaviors/5/aitasks/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/skeleton.json",
+    "path": "/11/path",
+    "value": "/server/behaviors/5/aitasks/1/damageTierByType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/skeleton.json",
+    "path": "/16/path",
+    "value": "/server/behaviors/5/aitasks/0/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/skeleton.json",
+    "path": "/17/path",
+    "value": "/server/behaviors/5/aitasks/0/damageTier",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/skeleton.json",
+    "path": "/22/path",
+    "value": "/server/behaviors/5/aitasks/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/skeleton.json",
+    "path": "/23/path",
+    "value": "/server/behaviors/5/aitasks/1/damageTierByType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/slime.json",
+    "path": "/4/path",
+    "value": "/server/behaviors/6/aitasks/1/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/slime.json",
+    "path": "/5/path",
+    "value": "/server/behaviors/6/aitasks/1/damageTierByType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/treant.json",
+    "path": "/4/path",
+    "value": "/server/behaviors/5/aitasks/0/damageType",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "priority": 9999,
+    "dependsOn": [{ "modid": "fantasycreaturesupdate" }],
+    "op": "replace",
+    "file": "@@combatoverhaul:patches/compatibility/fantasycreatures/treant.json",
+    "path": "/5/path",
+    "value": "/server/behaviors/5/aitasks/0/damageTier",
+    "side": "universal"
+  }
+]

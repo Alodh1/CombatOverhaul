@@ -1,0 +1,126 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "uraniumsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "ferrousuranium"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/shapeByType/blade-falx-uraniumsteel",
+    "value": {
+      "base": "item/tool/blade/falx/uraniumsteel"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/shapeByType/blade-falx-ferrousuranium",
+    "value": {
+      "base": "item/tool/blade/falx/ferrousuranium"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/durabilitybytype/blade-falx-uraniumsteel",
+    "value": 2525
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/durabilitybytype/blade-falx-ferrousuranium",
+    "value": 750
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType/*-uraniumsteel",
+    "value": {
+      "DamageType": "SlashingAttack",
+      "Tier": 7,
+      "Damage": 5.8
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "uraniumexpanded"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType/*-ferrousuranium",
+    "value": {
+      "DamageType": "SlashingAttack",
+      "Tier": 5,
+      "Damage": 5.0
+    }
+  }
+]

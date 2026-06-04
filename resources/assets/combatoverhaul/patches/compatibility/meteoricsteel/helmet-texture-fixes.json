@@ -1,0 +1,44 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      },
+      {
+        "modid": "combatoverhaulfork"
+      }
+    ],
+    "file": "game:shapes/entity/humanoid/seraph/armor/chain/head-meteoricsteel",
+    "op": "replace",
+    "path": "/textures/material",
+    "value": "entity/humanoid/serapharmor/chain/meteoricsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      },
+      {
+        "modid": "combatoverhaulfork"
+      }
+    ],
+    "file": "game:shapes/entity/humanoid/seraph/armor/plate/head-meteoricsteel",
+    "op": "replace",
+    "path": "/textures/material",
+    "value": "entity/humanoid/serapharmor/plate/meteoricsteel"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      },
+      {
+        "modid": "combatoverhaulfork"
+      }
+    ],
+    "file": "game:shapes/entity/humanoid/seraph/armor/scale/head-meteoricsteel",
+    "op": "replace",
+    "path": "/textures/material",
+    "value": "entity/humanoid/serapharmor/scale/meteoricsteel"
+  }
+]

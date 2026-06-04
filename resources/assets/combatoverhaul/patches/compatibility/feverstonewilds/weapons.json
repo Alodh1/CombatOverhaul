@@ -1,0 +1,15 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      },
+      {
+        "modid": "combatoverhaulfork"
+      }
+    ],
+    "file": "feverstonewilds:itemtypes/tool/bow/bow",
+    "op": "remove",
+    "path": "/creativeinventory"
+  }
+]

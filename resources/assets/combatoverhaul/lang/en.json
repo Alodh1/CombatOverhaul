@@ -213,5 +213,9 @@
   "setting-bowtorn_projectile_velocity_gearfoot": "Gearfoot bowtorn projectile speed",
   "setting-ranged_weapons_damage_support": "'rangedWeaponDamage' stat applied to CO weapons",
   "setting-switch_from_immersive_first_person": "Switch IFP to FP when holding items with CO animations",
-  "setting-short_entity_info": "Short entity tooltip info"
+  "setting-short_entity_info": "Short entity tooltip info",
+  "game:item-arrow-uraniumsteel": "Uranium steel arrow",
+  "game:item-arrow-ferrousuranium": "Ferrous uranium arrow",
+  "game:item-arrowhead-uraniumsteel": "Uranium steel arrowhead",
+  "game:item-arrowhead-ferrousuranium": "Ferrous uranium arrowhead"
 }

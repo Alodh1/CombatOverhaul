@@ -1,0 +1,224 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "combatoverhaulfork"
+      },
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "addmerge",
+    "path": "/behaviors/0/propertiesByType",
+    "value": {
+      "armor-head-chain-meteoricsteel": {
+        "Layers": [
+          "Middle"
+        ],
+        "Zones": [
+          "Head",
+          "Neck",
+          "Face"
+        ],
+        "Resists": {
+          "PiercingAttack": 3,
+          "SlashingAttack": 5,
+          "BluntAttack": 0
+        },
+        "FlatReduction": {},
+        "PlayerStats": {
+          "walkspeed": 0,
+          "manipulationSpeed": 0,
+          "steadyAim": -0.02,
+          "healingeffectivness": -0.09,
+          "hungerrate": 0.09
+        }
+      },
+      "armor-body-chain-meteoricsteel": {
+        "Layers": [
+          "Middle"
+        ],
+        "Zones": [
+          "Torso",
+          "Arms",
+          "Hands"
+        ],
+        "Resists": {
+          "PiercingAttack": 3,
+          "SlashingAttack": 5,
+          "BluntAttack": 0
+        },
+        "FlatReduction": {},
+        "PlayerStats": {
+          "walkspeed": 0,
+          "manipulationSpeed": -0.04,
+          "steadyAim": -0.06,
+          "healingeffectivness": -0.09,
+          "hungerrate": 0.09
+        }
+      },
+      "armor-legs-chain-meteoricsteel": {
+        "Layers": [
+          "Middle"
+        ],
+        "Zones": [
+          "Legs",
+          "Feet"
+        ],
+        "Resists": {
+          "PiercingAttack": 3,
+          "SlashingAttack": 5,
+          "BluntAttack": 0
+        },
+        "FlatReduction": {},
+        "PlayerStats": {
+          "walkspeed": -0.04,
+          "manipulationSpeed": 0,
+          "steadyAim": 0,
+          "healingeffectivness": -0.06,
+          "hungerrate": 0.06
+        }
+      },
+      "armor-head-scale-meteoricsteel": {
+        "Layers": [
+          "Outer",
+          "Middle"
+        ],
+        "Zones": [
+          "Head",
+          "Neck",
+          "Face"
+        ],
+        "Resists": {
+          "PiercingAttack": 6,
+          "SlashingAttack": 6,
+          "BluntAttack": 2
+        },
+        "FlatReduction": {},
+        "PlayerStats": {
+          "walkspeed": 0,
+          "manipulationSpeed": -0.05,
+          "steadyAim": -0.06,
+          "healingeffectivness": -0.09,
+          "hungerrate": 0.09
+        }
+      },
+      "armor-body-scale-meteoricsteel": {
+        "Layers": [
+          "Outer",
+          "Middle"
+        ],
+        "Zones": [
+          "Torso",
+          "Arms",
+          "Hands"
+        ],
+        "Resists": {
+          "PiercingAttack": 6,
+          "SlashingAttack": 6,
+          "BluntAttack": 2
+        },
+        "FlatReduction": {},
+        "PlayerStats": {
+          "walkspeed": -0.04,
+          "manipulationSpeed": -0.1,
+          "steadyAim": -0.17,
+          "healingeffectivness": -0.09,
+          "hungerrate": 0.09
+        }
+      },
+      "armor-legs-scale-meteoricsteel": {
+        "Layers": [
+          "Outer",
+          "Middle"
+        ],
+        "Zones": [
+          "Legs",
+          "Feet"
+        ],
+        "Resists": {
+          "PiercingAttack": 6,
+          "SlashingAttack": 6,
+          "BluntAttack": 2
+        },
+        "FlatReduction": {},
+        "PlayerStats": {
+          "walkspeed": -0.1,
+          "manipulationSpeed": 0,
+          "steadyAim": 0,
+          "healingeffectivness": -0.06,
+          "hungerrate": 0.06
+        }
+      },
+      "armor-head-plate-meteoricsteel": {
+        "Layers": [
+          "Outer"
+        ],
+        "Zones": [
+          "Head",
+          "Neck",
+          "Face"
+        ],
+        "Resists": {
+          "PiercingAttack": 9,
+          "SlashingAttack": 7,
+          "BluntAttack": 8
+        },
+        "FlatReduction": {},
+        "PlayerStats": {
+          "walkspeed": 0,
+          "manipulationSpeed": -0.05,
+          "steadyAim": -0.1,
+          "healingeffectivness": -0.09,
+          "hungerrate": 0.12
+        }
+      },
+      "armor-body-plate-meteoricsteel": {
+        "Layers": [
+          "Outer"
+        ],
+        "Zones": [
+          "Torso",
+          "Arms",
+          "Hands"
+        ],
+        "Resists": {
+          "PiercingAttack": 9,
+          "SlashingAttack": 7,
+          "BluntAttack": 8
+        },
+        "FlatReduction": {},
+        "PlayerStats": {
+          "walkspeed": -0.05,
+          "manipulationSpeed": -0.2,
+          "steadyAim": -0.3,
+          "healingeffectivness": -0.09,
+          "hungerrate": 0.12
+        }
+      },
+      "armor-legs-plate-meteoricsteel": {
+        "Layers": [
+          "Outer"
+        ],
+        "Zones": [
+          "Legs",
+          "Feet"
+        ],
+        "Resists": {
+          "PiercingAttack": 9,
+          "SlashingAttack": 7,
+          "BluntAttack": 8
+        },
+        "FlatReduction": {},
+        "PlayerStats": {
+          "walkspeed": -0.2,
+          "manipulationSpeed": 0,
+          "steadyAim": 0,
+          "healingeffectivness": -0.06,
+          "hungerrate": 0.08
+        }
+      }
+    }
+  }
+]

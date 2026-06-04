@@ -785,6 +785,11 @@
       "scale": 0.8
     }
   },
+  "attributesByType": {
+    "blade-falx-*": {
+      "ripHarvest": true
+    }
+  },
   "behaviorsByType": {
     "*-iron": [
       {
