@@ -60,23 +60,5 @@
       "Tier": 7,
       "Damage": 5.5
     }
-  },
-  {
-    "dependsOn": [
-      {
-        "modid": "combatoverhaulfork"
-      },
-      {
-        "modid": "meteoricsteel"
-      }
-    ],
-    "file": "game:itemtypes/combatoverhaul/sword",
-    "op": "addmerge",
-    "path": "/attributes/OneHandedStanceByType/*-falx-*/Riposte/DamageTypes/0/DamageByType/*-meteoricsteel",
-    "value": {
-      "DamageType": "SlashingAttack",
-      "Tier": 7,
-      "Damage": 8.5
-    }
   }
 ]
