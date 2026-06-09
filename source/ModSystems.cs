@@ -128,7 +128,7 @@ public sealed class CombatOverhaulAdditionalSystem : ModSystem
             }
             catch (Exception ex)
             {
-                // Why the fuck I have to put every single vanilla method under try catch so it does not crash the game with random null ref!?
+                LoggerUtil.Error(api, this, $"Error while validating player entity behaviors:\n{ex}");
             }
             
         }, 30000);
