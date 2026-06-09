@@ -428,6 +428,17 @@
       }
     },
     {
+      "code": "weapon_quench_damage_bonus_per_quench",
+      "type": "float",
+      "ingui": "combatoverhaul:setting-weapon_quench_damage_bonus_per_quench",
+      "comment": "combatoverhaul:setting-comment-weapon_quench_damage_bonus_per_quench",
+      "default": 0.1,
+      "range": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
       "code": "melee_weapon_attack_speed_multiplier",
       "type": "float",
       "ingui": "combatoverhaul:setting-melee_weapon_attack_speed_multiplier",
