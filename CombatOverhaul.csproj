@@ -1,9 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <!-- Mod info -->
   <PropertyGroup>
     <ModName>Combat Overhaul</ModName>
     <ModType>code</ModType>
-    <ModVersion>0.17.54</ModVersion>
+    <ModVersion>0.17.55</ModVersion>
     <ModId>combatoverhaulfork</ModId>
     <Description></Description>
     <Side>universal</Side>
@@ -86,6 +86,12 @@
     </Reference>
     <Reference Include="configlib" Private="false" Condition="Exists('$(ExternalLibDir)/configlib.dll')">
       <HintPath>$(ExternalLibDir)/configlib.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayerModelLib" Private="false" Condition="Exists('$(ExternalLibDir)/PlayerModelLib.dll')">
+      <HintPath>$(ExternalLibDir)/PlayerModelLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayerModelLib" Private="false" Condition="!Exists('$(ExternalLibDir)/PlayerModelLib.dll') and Exists('$(ProjectDir)/../OverhaullibLegacy/external/PlayerModelLib.dll')">
+      <HintPath>$(ProjectDir)/../OverhaullibLegacy/external/PlayerModelLib.dll</HintPath>
     </Reference>
   
     <!-- Compile against Overhaullib Legacy Compat only. Do not use original overhaullib. -->

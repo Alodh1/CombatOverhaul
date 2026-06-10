@@ -45,6 +45,7 @@
   "storageFlags": 128,
   "attributes": {
     "visibleDamageEffect": true,
+    "footStepSound": "game:wearable/leather*",
     "materialCount": 4,
     "clothesCategoryByType": {
       "*-head-*": "armorhead",
