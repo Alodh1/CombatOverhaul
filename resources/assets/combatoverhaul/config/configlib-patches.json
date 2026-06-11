@@ -20,7 +20,8 @@
         "attributes/RenderingOffset": "not(weapon_rendering_offset)"
       },
       "combatoverhaul:jsonpatches/entities/player.json": {
-        "2/value/secondChanceAvailable": "second_chance_available"
+        "0/value/secondChanceAvailable": "second_chance_available",
+        "1/value/secondChanceAvailable": "second_chance_available"
       },
       "game:itemtypes/combatoverhaul/bow.json": {
         "attributes/TwoHanded": "bow_two_handed"
@@ -68,20 +69,20 @@
         "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
       },
       "combatoverhaul:jsonpatches/entities/player.json": {
-        "2/value/secondChanceCooldownSec": "second_chance_cooldown",
-        "2/value/damageModel/Zones/0/DamageMultiplier": "player_model_torso_damage",
-        "2/value/damageModel/Zones/1/DamageMultiplier": "player_model_head_damage",
-        "2/value/damageModel/Zones/2/DamageMultiplier": "player_model_neck_damage",
-        "2/value/damageModel/Zones/3/DamageMultiplier": "player_model_face_damage",
-        "2/value/damageModel/Zones/4-8/DamageMultiplier": "player_model_arms_damage",
-        "2/value/damageModel/Zones/8-12/DamageMultiplier": "player_model_legs_damage",
-        "3/value/secondChanceCooldownSec": "second_chance_cooldown",
-        "3/value/damageModel/Zones/0/DamageMultiplier": "player_model_torso_damage",
-        "3/value/damageModel/Zones/1/DamageMultiplier": "player_model_head_damage",
-        "3/value/damageModel/Zones/2/DamageMultiplier": "player_model_neck_damage",
-        "3/value/damageModel/Zones/3/DamageMultiplier": "player_model_face_damage",
-        "3/value/damageModel/Zones/4-8/DamageMultiplier": "player_model_arms_damage",
-        "3/value/damageModel/Zones/8-12/DamageMultiplier": "player_model_legs_damage"
+        "0/value/secondChanceCooldownSec": "second_chance_cooldown",
+        "0/value/damageModel/Zones/0/DamageMultiplier": "player_model_torso_damage",
+        "0/value/damageModel/Zones/1/DamageMultiplier": "player_model_head_damage",
+        "0/value/damageModel/Zones/2/DamageMultiplier": "player_model_neck_damage",
+        "0/value/damageModel/Zones/3/DamageMultiplier": "player_model_face_damage",
+        "0/value/damageModel/Zones/4-8/DamageMultiplier": "player_model_arms_damage",
+        "0/value/damageModel/Zones/8-12/DamageMultiplier": "player_model_legs_damage",
+        "1/value/secondChanceCooldownSec": "second_chance_cooldown",
+        "1/value/damageModel/Zones/0/DamageMultiplier": "player_model_torso_damage",
+        "1/value/damageModel/Zones/1/DamageMultiplier": "player_model_head_damage",
+        "1/value/damageModel/Zones/2/DamageMultiplier": "player_model_neck_damage",
+        "1/value/damageModel/Zones/3/DamageMultiplier": "player_model_face_damage",
+        "1/value/damageModel/Zones/4-8/DamageMultiplier": "player_model_arms_damage",
+        "1/value/damageModel/Zones/8-12/DamageMultiplier": "player_model_legs_damage"
       },
       "combatoverhaul:jsonpatches/entities/lore/bowtorn.json": {
         "8/value/SeekingRangeByType/*-surface": "bowtorn_maxrange_surface + 5",
