@@ -1,351 +1,49 @@
 [
-  {
-    "side": "server",
-    "file": "game:recipes/smithing/chain",
-    "op": "addmerge",
-    "path": "/output",
-    "value": {
-      "quantity": 4
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:recipes/grid/metalbit",
-    "op": "replace",
-    "path": "/3/output/quantity",
-    "value": 10
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalchain",
-    "op": "addmerge",
-    "path": "/combustiblePropsByType/@@metalchain-*/smeltedStack",
-    "value": {
-      "stacksize": 1
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalchain",
-    "op": "addmerge",
-    "path": "/combustiblePropsByType/@@metalchain-*",
-    "value": {
-      "smeltedRatio": 4
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalplate",
-    "op": "addmerge",
-    "path": "/behaviorsByType",
-    "value": {
-      "*-iron": [
-        {
-          "name": "Quenchable",
-          "properties": {
-            "metalVariantgroupCode": "metal"
-          }
-        }
-      ],
-      "*-meteoriciron": [
-        {
-          "name": "Quenchable",
-          "properties": {
-            "metalVariantgroupCode": "metal"
-          }
-        }
-      ],
-      "*-steel": [
-        {
-          "name": "Quenchable",
-          "properties": {
-            "metalVariantgroupCode": "metal"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalplate",
-    "op": "addmerge",
-    "path": "/combustiblePropsByType",
-    "value": {
-      "*-copper": {
-        "meltingPoint": 1084,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-tinbronze": {
-        "meltingPoint": 950,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-bismuthbronze": {
-        "meltingPoint": 950,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-blackbronze": {
-        "meltingPoint": 950,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-iron": {
-        "meltingPoint": 1482,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-meteoriciron": {
-        "meltingPoint": 1482,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-steel": {
-        "meltingPoint": 1502,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-gold": {
-        "meltingPoint": 1063,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-silver": {
-        "meltingPoint": 961,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      }
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalchain",
-    "op": "addmerge",
-    "path": "/behaviorsByType",
-    "value": {
-      "*-iron": [
-        {
-          "name": "Quenchable",
-          "properties": {
-            "metalVariantgroupCode": "metal"
-          }
-        }
-      ],
-      "*-meteoriciron": [
-        {
-          "name": "Quenchable",
-          "properties": {
-            "metalVariantgroupCode": "metal"
-          }
-        }
-      ],
-      "*-steel": [
-        {
-          "name": "Quenchable",
-          "properties": {
-            "metalVariantgroupCode": "metal"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalchain",
-    "op": "addmerge",
-    "path": "/combustiblePropsByType",
-    "value": {
-      "*-copper": {
-        "meltingPoint": 1084,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-tinbronze": {
-        "meltingPoint": 950,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-bismuthbronze": {
-        "meltingPoint": 950,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-blackbronze": {
-        "meltingPoint": 950,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-iron": {
-        "meltingPoint": 1482,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-meteoriciron": {
-        "meltingPoint": 1482,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-steel": {
-        "meltingPoint": 1502,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-gold": {
-        "meltingPoint": 1063,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-silver": {
-        "meltingPoint": 961,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      }
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalscale",
-    "op": "addmerge",
-    "path": "/behaviorsByType",
-    "value": {
-      "*-iron": [
-        {
-          "name": "Quenchable",
-          "properties": {
-            "metalVariantgroupCode": "metal"
-          }
-        }
-      ],
-      "*-meteoriciron": [
-        {
-          "name": "Quenchable",
-          "properties": {
-            "metalVariantgroupCode": "metal"
-          }
-        }
-      ],
-      "*-steel": [
-        {
-          "name": "Quenchable",
-          "properties": {
-            "metalVariantgroupCode": "metal"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalscale",
-    "op": "addmerge",
-    "path": "/combustiblePropsByType",
-    "value": {
-      "*-copper": {
-        "meltingPoint": 1084,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-tinbronze": {
-        "meltingPoint": 950,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-bismuthbronze": {
-        "meltingPoint": 950,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-blackbronze": {
-        "meltingPoint": 950,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-iron": {
-        "meltingPoint": 1482,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-meteoriciron": {
-        "meltingPoint": 1482,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-steel": {
-        "meltingPoint": 1502,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-gold": {
-        "meltingPoint": 1063,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      },
-      "*-silver": {
-        "meltingPoint": 961,
-        "meltingDuration": 30,
-        "requiresContainer": false
-      }
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalchain",
-    "op": "addmerge",
-    "path": "/attributesByType",
-    "value": {
-      "*-iron": {
-        "forgable": true,
-        "quenchBuffKind": "armor"
-      },
-      "*-meteoriciron": {
-        "forgable": true,
-        "quenchBuffKind": "armor"
-      },
-      "*-steel": {
-        "forgable": true,
-        "quenchBuffKind": "armor"
-      }
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalplate",
-    "op": "addmerge",
-    "path": "/attributesByType",
-    "value": {
-      "*-iron": {
-        "forgable": true,
-        "quenchBuffKind": "armor"
-      },
-      "*-meteoriciron": {
-        "forgable": true,
-        "quenchBuffKind": "armor"
-      },
-      "*-steel": {
-        "forgable": true,
-        "quenchBuffKind": "armor"
-      }
-    }
-  },
-  {
-    "side": "server",
-    "file": "game:itemtypes/resource/metalscale",
-    "op": "addmerge",
-    "path": "/attributesByType",
-    "value": {
-      "*-iron": {
-        "forgable": true,
-        "quenchBuffKind": "armor"
-      },
-      "*-meteoriciron": {
-        "forgable": true,
-        "quenchBuffKind": "armor"
-      },
-      "*-steel": {
-        "forgable": true,
-        "quenchBuffKind": "armor"
-      }
-    }
-  }
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/chain", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/chain", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/chain", "op": "add", "path": "/2/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/plate", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/plate", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/plate", "op": "add", "path": "/2/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/scale", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/scale", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/scale", "op": "add", "path": "/2/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/brigandine", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/brigandine", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/brigandine", "op": "add", "path": "/2/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/gambeson", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/gambeson", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/gambeson", "op": "add", "path": "/2/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/tailoredgambeson", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/tailoredgambeson", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/tailoredgambeson", "op": "add", "path": "/2/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/jerkin", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armor/jerkin", "op": "add", "path": "/1/enabled", "value": false},
+
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/chain", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/chain", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/chain", "op": "add", "path": "/2/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/plate", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/plate", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/plate", "op": "add", "path": "/2/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/scale", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/scale", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/scale", "op": "add", "path": "/2/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/brigandine", "op": "add", "path": "/0/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/brigandine", "op": "add", "path": "/1/enabled", "value": false},
+  {"enabled": false, "side": "server", "file": "game:recipes/grid/armorrepair/brigandine", "op": "add", "path": "/2/enabled", "value": false},
+
+  {"side": "server", "file": "game:recipes/smithing/chain", "op": "addmerge", "path": "/output", "value": {"quantity": 4}},
+  {"side": "server", "file": "game:recipes/grid/metalbit", "op": "replace", "path": "/3/output/quantity", "value": 10},
+  {"side": "server", "file": "game:itemtypes/resource/metalchain", "op": "addmerge", "path": "/combustiblePropsByType/@@metalchain-*/smeltedStack", "value": {"stacksize": 1}},
+  {"side": "server", "file": "game:itemtypes/resource/metalchain", "op": "addmerge", "path": "/combustiblePropsByType/@@metalchain-*", "value": {"smeltedRatio": 4}},
+  {"side": "server", "file": "game:itemtypes/resource/metalplate", "op": "addmerge", "path": "/behaviorsByType", "value": {"*-iron": [{"name": "Quenchable", "properties": {"metalVariantgroupCode": "metal"}}], "*-meteoriciron": [{"name": "Quenchable", "properties": {"metalVariantgroupCode": "metal"}}], "*-steel": [{"name": "Quenchable", "properties": {"metalVariantgroupCode": "metal"}}]}},
+  {"side": "server", "file": "game:itemtypes/resource/metalplate", "op": "addmerge", "path": "/combustiblePropsByType", "value": {"*-copper": {"meltingPoint": 1084, "meltingDuration": 30, "requiresContainer": false}, "*-tinbronze": {"meltingPoint": 950, "meltingDuration": 30, "requiresContainer": false}, "*-bismuthbronze": {"meltingPoint": 950, "meltingDuration": 30, "requiresContainer": false}, "*-blackbronze": {"meltingPoint": 950, "meltingDuration": 30, "requiresContainer": false}, "*-iron": {"meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false}, "*-meteoriciron": {"meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false}, "*-steel": {"meltingPoint": 1502, "meltingDuration": 30, "requiresContainer": false}, "*-gold": {"meltingPoint": 1063, "meltingDuration": 30, "requiresContainer": false}, "*-silver": {"meltingPoint": 961, "meltingDuration": 30, "requiresContainer": false}}},
+  {"side": "server", "file": "game:itemtypes/resource/metalchain", "op": "addmerge", "path": "/behaviorsByType", "value": {"*-iron": [{"name": "Quenchable", "properties": {"metalVariantgroupCode": "metal"}}], "*-meteoriciron": [{"name": "Quenchable", "properties": {"metalVariantgroupCode": "metal"}}], "*-steel": [{"name": "Quenchable", "properties": {"metalVariantgroupCode": "metal"}}]}},
+  {"side": "server", "file": "game:itemtypes/resource/metalchain", "op": "addmerge", "path": "/combustiblePropsByType", "value": {"*-copper": {"meltingPoint": 1084, "meltingDuration": 30, "requiresContainer": false}, "*-tinbronze": {"meltingPoint": 950, "meltingDuration": 30, "requiresContainer": false}, "*-bismuthbronze": {"meltingPoint": 950, "meltingDuration": 30, "requiresContainer": false}, "*-blackbronze": {"meltingPoint": 950, "meltingDuration": 30, "requiresContainer": false}, "*-iron": {"meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false}, "*-meteoriciron": {"meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false}, "*-steel": {"meltingPoint": 1502, "meltingDuration": 30, "requiresContainer": false}, "*-gold": {"meltingPoint": 1063, "meltingDuration": 30, "requiresContainer": false}, "*-silver": {"meltingPoint": 961, "meltingDuration": 30, "requiresContainer": false}}},
+  {"side": "server", "file": "game:itemtypes/resource/metalscale", "op": "addmerge", "path": "/behaviorsByType", "value": {"*-iron": [{"name": "Quenchable", "properties": {"metalVariantgroupCode": "metal"}}], "*-meteoriciron": [{"name": "Quenchable", "properties": {"metalVariantgroupCode": "metal"}}], "*-steel": [{"name": "Quenchable", "properties": {"metalVariantgroupCode": "metal"}}]}},
+  {"side": "server", "file": "game:itemtypes/resource/metalscale", "op": "addmerge", "path": "/combustiblePropsByType", "value": {"*-copper": {"meltingPoint": 1084, "meltingDuration": 30, "requiresContainer": false}, "*-tinbronze": {"meltingPoint": 950, "meltingDuration": 30, "requiresContainer": false}, "*-bismuthbronze": {"meltingPoint": 950, "meltingDuration": 30, "requiresContainer": false}, "*-blackbronze": {"meltingPoint": 950, "meltingDuration": 30, "requiresContainer": false}, "*-iron": {"meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false}, "*-meteoriciron": {"meltingPoint": 1482, "meltingDuration": 30, "requiresContainer": false}, "*-steel": {"meltingPoint": 1502, "meltingDuration": 30, "requiresContainer": false}, "*-gold": {"meltingPoint": 1063, "meltingDuration": 30, "requiresContainer": false}, "*-silver": {"meltingPoint": 961, "meltingDuration": 30, "requiresContainer": false}}},
+  {"side": "server", "file": "game:itemtypes/resource/metalchain", "op": "addmerge", "path": "/attributesByType", "value": {"*-iron": {"forgable": true, "quenchBuffKind": "armor"}, "*-meteoriciron": {"forgable": true, "quenchBuffKind": "armor"}, "*-steel": {"forgable": true, "quenchBuffKind": "armor"}}},
+  {"side": "server", "file": "game:itemtypes/resource/metalplate", "op": "addmerge", "path": "/attributesByType", "value": {"*-iron": {"forgable": true, "quenchBuffKind": "armor"}, "*-meteoriciron": {"forgable": true, "quenchBuffKind": "armor"}, "*-steel": {"forgable": true, "quenchBuffKind": "armor"}}},
+  {"side": "server", "file": "game:itemtypes/resource/metalscale", "op": "addmerge", "path": "/attributesByType", "value": {"*-iron": {"forgable": true, "quenchBuffKind": "armor"}, "*-meteoriciron": {"forgable": true, "quenchBuffKind": "armor"}, "*-steel": {"forgable": true, "quenchBuffKind": "armor"}}}
 ]

@@ -3,21 +3,130 @@
   "class": "Item",
   "maxstacksize": 32,
   "storageFlags": 513,
-  "variantgroups": [{"code": "material", "states": ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "lead", "blueclay", "redclay", "fireclay"]}],
-  "shape": {"base": "combatoverhaul:ammo/sling-bullet"},
-  "texturesByType": {
-    "@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {"material": {"base": "game:block/stone/rock/{material}1"}},
-    "*-flint": {"material": {"base": "game:block/stone/flint"}},
-    "*-blueclay": {"material": {"base": "game:block/clay/hardened/blue1"}},
-    "*-redclay": {"material": {"base": "game:block/clay/hardened/red1"}},
-    "*-fireclay": {"material": {"base": "game:block/clay/hardened/fire1"}},
-    "*": {"material": {"base": "game:block/metal/plate/{material}"}}
+  "variantgroups": [
+    {
+      "code": "material",
+      "states": [
+        "chert",
+        "granite",
+        "andesite",
+        "basalt",
+        "obsidian",
+        "peridotite",
+        "flint",
+        "lead",
+        "iron",
+        "blueclay",
+        "redclay",
+        "fireclay"
+      ]
+    }
+  ],
+  "shape": {
+    "base": "combatoverhaul:ammo/sling-bullet"
   },
-  "creativeinventory": {"general": ["*"], "combatoverhaul": ["*"]},
-  "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 67, "y": -1, "z": 118}, "origin": {"x": 0.6, "y": -0.01, "z": 0.55}, "scale": 6},
-  "fpHandTransform": {"translation": {"x": 0.15, "y": 0, "z": 0}, "rotation": {"x": 91, "y": 0, "z": -30}, "scale": 2},
-  "tpHandTransform": {"translation": {"x": -1.05, "y": -0.59, "z": -0.96}, "rotation": {"x": 0, "y": 2, "z": 3}, "scale": 0.48},
-  "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0.5, "y": 0, "z": 0.5}, "scale": 4},
+  "texturesByType": {
+    "@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+      "material": {
+        "base": "game:block/stone/rock/{material}1"
+      }
+    },
+    "*-flint": {
+      "material": {
+        "base": "game:block/stone/flint"
+      }
+    },
+    "*-blueclay": {
+      "material": {
+        "base": "game:block/clay/hardened/blue1"
+      }
+    },
+    "*-redclay": {
+      "material": {
+        "base": "game:block/clay/hardened/red1"
+      }
+    },
+    "*-fireclay": {
+      "material": {
+        "base": "game:block/clay/hardened/fire1"
+      }
+    },
+    "*": {
+      "material": {
+        "base": "game:block/metal/plate/{material}"
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "combatoverhaul": [
+      "*"
+    ]
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 67,
+      "y": -1,
+      "z": 118
+    },
+    "origin": {
+      "x": 0.6,
+      "y": -0.01,
+      "z": 0.55
+    },
+    "scale": 6
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0.15,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 91,
+      "y": 0,
+      "z": -30
+    },
+    "scale": 2
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.05,
+      "y": -0.59,
+      "z": -0.96
+    },
+    "rotation": {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    },
+    "scale": 0.48
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4
+  },
   "behaviors": [
     {
       "name": "CombatOverhaul:Projectile",
@@ -26,20 +135,124 @@
           "CollisionRadius": 0.04,
           "PenetrationDistance": 0,
           "DamageStatsByType": {
-            "*-lead": {"DamageType": "BluntAttack", "Damage": 8},
-            "*-obsidian": {"DamageType": "PiercingAttack", "Damage": 6},
-            "*-*clay": {"DamageType": "BluntAttack", "Damage": 6},
-            "*-flint": {"DamageType": "PiercingAttack", "Damage": 4},
-            "*": {"DamageType": "BluntAttack", "Damage": 4}
+            "*-lead": {
+              "DamageType": "BluntAttack",
+              "Damage": 8
+            },
+            "*-iron": {
+              "DamageType": "BluntAttack",
+              "Damage": 12
+            },
+            "*-obsidian": {
+              "DamageType": "PiercingAttack",
+              "Damage": 6
+            },
+            "*-*clay": {
+              "DamageType": "BluntAttack",
+              "Damage": 6
+            },
+            "*-flint": {
+              "DamageType": "PiercingAttack",
+              "Damage": 4
+            },
+            "*": {
+              "DamageType": "BluntAttack",
+              "Damage": 4
+            }
           },
           "SpeedThreshold": 0.5,
           "Knockback": 0.5,
           "EntityCode": "combatoverhaul:slingbullet-{material}",
-          "DropChanceByType": {"*-lead": 0.98, "*-obsidian": 0.5, "*-flint": 0.5, "*-*clay": 0, "*": 0.9},
-          "DamageTierBonusByType": {"*-lead": 2, "*-*clay": 1, "*": 0},
-          "AdditionalDurabilityCostByType": {"*-lead": 0, "*-obsidian": 2, "*-flint": 1, "*": 0}
+          "DropChanceByType": {
+            "*-lead": 0.98,
+            "*-iron": 0.98,
+            "*-obsidian": 0.5,
+            "*-flint": 0.5,
+            "*-*clay": 0,
+            "*": 0.9
+          },
+          "DamageTierBonusByType": {
+            "*-lead": 2,
+            "*-iron": 3,
+            "*-*clay": 1,
+            "*": 0
+          },
+          "AdditionalDurabilityCostByType": {
+            "*-lead": 0,
+            "*-iron": 0,
+            "*-obsidian": 2,
+            "*-flint": 1,
+            "*": 0
+          }
         }
       }
     }
-  ]
+  ],
+  "attributesByType": {
+    "*-chert": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-granite": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-andesite": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-basalt": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-obsidian": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-peridotite": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-flint": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-lead": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-blueclay": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-redclay": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-fireclay": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    }
+  },
+  "attributes": {
+    "handbook": {
+      "extraSections": [
+        {
+          "Title": "combatoverhaul:handbook-craftingappearance-title",
+          "Text": "combatoverhaul:handbook-craftingappearance-text"
+        }
+      ]
+    }
+  }
 }

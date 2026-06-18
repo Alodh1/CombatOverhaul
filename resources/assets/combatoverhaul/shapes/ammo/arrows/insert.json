@@ -6,11 +6,12 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
+		"feather2": [4,8]
 	},
 	"textures": {
 		"plain": "game:block/cloth/linen/plain",
 		"material": "game:block/metal/ingot/copper",
-		"feather1": "game:item/tool/feather1",
+		"feather2": "game:item/tool/feather2",
 		"wood": "game:item/tool/handle"
 	},
 	"elements": [
@@ -148,7 +149,7 @@
 					"rotationX": -45.0,
 					"rotationY": -1.0,
 					"faces": {
-						"south": { "texture": "#feather1", "uv": [ 6.0, 10.0, 10.0, 15.5 ], "rotation": 270 }
+						"south": { "texture": "#feather2", "uv": [ 0.0, 2.5, 4.0, 8.0 ], "rotation": 270 }
 					}
 				},
 				{
@@ -160,7 +161,7 @@
 					"rotationX": 45.0,
 					"rotationY": -1.0,
 					"faces": {
-						"south": { "texture": "#feather1", "uv": [ 6.0, 10.0, 10.0, 15.5 ], "rotation": 270 }
+						"south": { "texture": "#feather2", "uv": [ 0.0, 2.5, 4.0, 8.0 ], "rotation": 270 }
 					}
 				},
 				{

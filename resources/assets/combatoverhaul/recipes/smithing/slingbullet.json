@@ -1,0 +1,21 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-iron"
+    },
+    "pattern": [
+      [
+        "##_##_##_##",
+        "___________",
+        "##_##_##_##"
+      ]
+    ],
+    "name": "sling bullet",
+    "output": {
+      "type": "item",
+      "code": "combatoverhaul:slingbullet-iron",
+      "quantity": 8
+    }
+  }
+]

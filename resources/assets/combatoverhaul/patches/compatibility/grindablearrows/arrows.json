@@ -1,0 +1,143 @@
+[
+  {
+    "dependsOn": [{ "modid": "grindablearrows" }],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/behaviors/-",
+    "value": { "name": "Buffable" }
+  },
+  {
+    "dependsOn": [{ "modid": "grindablearrows" }],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/behaviors/-",
+    "value": { "name": "Sharpenable" }
+  },
+  {
+    "dependsOn": [{ "modid": "grindablearrows" }],
+    "file": "grindablearrows:itemtypes/tool/sharpenedarrow",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["projectile", "arrow"]
+  },
+  {
+    "dependsOn": [{ "modid": "grindablearrows" }],
+    "file": "grindablearrows:itemtypes/tool/sharpenedarrow",
+    "op": "addmerge",
+    "path": "/attributes/isArrow",
+    "value": true
+  },
+  {
+    "dependsOn": [{ "modid": "grindablearrows" }],
+    "file": "grindablearrows:itemtypes/tool/sharpenedarrow",
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 16
+  },
+  {
+    "dependsOn": [{ "modid": "grindablearrows" }],
+    "file": "grindablearrows:itemtypes/tool/sharpenedarrow",
+    "op": "replace",
+    "path": "/shapeByType",
+    "value": {
+      "*-crude": { "base": "combatoverhaul:ammo/arrows/crude" },
+      "*-flint": { "base": "combatoverhaul:ammo/arrows/stone" },
+      "*-obsidian": { "base": "combatoverhaul:ammo/arrows/stone" },
+      "*-meteoriciron": { "base": "combatoverhaul:ammo/arrows/envelop" },
+      "*-steel": { "base": "combatoverhaul:ammo/arrows/envelop" },
+      "*-iron": { "base": "combatoverhaul:ammo/arrows/envelop" },
+      "*-gold": { "base": "combatoverhaul:ammo/arrows/gold" },
+      "*-silver": { "base": "combatoverhaul:ammo/arrows/silver" },
+      "*-bone": { "base": "combatoverhaul:ammo/arrows/bone" },
+      "*": { "base": "combatoverhaul:ammo/arrows/insert" }
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "grindablearrows" }],
+    "file": "grindablearrows:itemtypes/tool/sharpenedarrow",
+    "op": "replace",
+    "path": "/behaviors/1/properties",
+    "value": {
+      "layout": "Stacking",
+      "placeRemoveSound": "game:sounds/block/ceramicplace",
+      "stackingModelByType": {
+        "*-crude": "combatoverhaul:ammo/pile-arrows-crude",
+        "*-bone": "combatoverhaul:ammo/pile-arrows-crude",
+        "*": "combatoverhaul:ammo/pile-arrows-fletched"
+      },
+      "modelItemsToStackSizeRatio": 4.2,
+      "stackingCapacity": 160,
+      "upSolid": true,
+      "transferQuantity": 5,
+      "bulkTransferQuantity": 25,
+      "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.03125, "z2": 1 },
+      "cbScaleYByLayer": 0.2
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "grindablearrows" }],
+    "file": "grindablearrows:itemtypes/tool/sharpenedarrow",
+    "op": "addmerge",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "CombatOverhaul:Projectile",
+      "properties": {
+        "stats": {
+          "AdditionalDurabilityCostByType": { "*-bone": 1, "*": 0 },
+          "CollisionRadius": 0.02,
+          "PenetrationDistance": 0.1,
+          "DamageStatsByType": {
+            "*-crude": { "DamageType": "SlashingAttack", "Damage": 2.5 },
+            "*-flint": { "DamageType": "SlashingAttack", "Damage": 2.5 },
+            "*-obsidian": { "DamageType": "SlashingAttack", "Damage": 4.5 },
+            "*-copper": { "DamageType": "SlashingAttack", "Damage": 5 },
+            "*-tinbronze": { "DamageType": "SlashingAttack", "Damage": 5 },
+            "*-bismuthbronze": { "DamageType": "SlashingAttack", "Damage": 5 },
+            "*-blackbronze": { "DamageType": "SlashingAttack", "Damage": 5.5 },
+            "*-iron": { "DamageType": "SlashingAttack", "Damage": 6 },
+            "*-gold": { "DamageType": "SlashingAttack", "Damage": 5 },
+            "*-silver": { "DamageType": "SlashingAttack", "Damage": 5 },
+            "*-meteoriciron": { "DamageType": "SlashingAttack", "Damage": 6.25 },
+            "*-steel": { "DamageType": "SlashingAttack", "Damage": 6.5 },
+            "*-bone": { "DamageType": "PiercingAttack", "Damage": 5 }
+          },
+          "DamageTierBonusByType": {
+            "*-crude": -1,
+            "*-flint": -1,
+            "*-obsidian": -1,
+            "*-copper": -1,
+            "*-tinbronze": 0,
+            "*-bismuthbronze": 0,
+            "*-blackbronze": 0,
+            "*-iron": 1,
+            "*-gold": 1,
+            "*-silver": 1,
+            "*-meteoriciron": 2,
+            "*-steel": 3,
+            "*-bone": 0
+          },
+          "SpeedThreshold": 0.3,
+          "Knockback": 0.5,
+          "EntityCode": "combatoverhaul:arrow-{material}",
+          "HitSound": "game:sounds/player/projectilehit",
+          "DurabilityDamage": 0,
+          "DropChanceByType": {
+            "*-crude": 0.25,
+            "*-flint": 0.75,
+            "*-obsidian": 0.25,
+            "*-copper": 0.9,
+            "*-tinbronze": 0.95,
+            "*-bismuthbronze": 0.95,
+            "*-blackbronze": 0.95,
+            "*-iron": 0.98,
+            "*-gold": 0.98,
+            "*-silver": 0.98,
+            "*-meteoriciron": 0.99,
+            "*-steel": 0.995,
+            "*-bone": 0
+          }
+        }
+      }
+    }
+  }
+]

@@ -71,6 +71,12 @@
     "handbook": {
       "groupBy": [
         "spear-generic-{material}"
+      ],
+      "extraSections": [
+        {
+          "Title": "combatoverhaul:handbook-craftingappearance-title",
+          "Text": "combatoverhaul:handbook-craftingappearance-text"
+        }
       ]
     },
     "groundStorageTransform": {
@@ -994,5 +1000,82 @@
         }
       }
     ]
+  },
+  "attributesByType": {
+    "*-*-chert": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-granite": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-andesite": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-basalt": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-obsidian": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-peridotite": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-flint": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-copper": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-tinbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-bismuthbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-blackbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-meteoriciron": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-steel": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-ornategold": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-ornatesilver": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    }
   }
 }

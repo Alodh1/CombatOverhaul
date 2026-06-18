@@ -31,6 +31,45 @@
       },
       "@@combatoverhaul:jsonpatches/entities/lore/(bell|bowtorn|drifter|locust|shiver).json": {
         "0/enabled": "not(short_entity_info)"
+      },
+      "combatoverhaul:jsonpatches/armor-recipes.json": {
+        "0/enabled": "not(vanilla_armor_grid_recipes)",
+        "1/enabled": "not(vanilla_armor_grid_recipes)",
+        "2/enabled": "not(vanilla_armor_grid_recipes)",
+        "3/enabled": "not(vanilla_armor_grid_recipes)",
+        "4/enabled": "not(vanilla_armor_grid_recipes)",
+        "5/enabled": "not(vanilla_armor_grid_recipes)",
+        "6/enabled": "not(vanilla_armor_grid_recipes)",
+        "7/enabled": "not(vanilla_armor_grid_recipes)",
+        "8/enabled": "not(vanilla_armor_grid_recipes)",
+        "9/enabled": "not(vanilla_armor_grid_recipes)",
+        "10/enabled": "not(vanilla_armor_grid_recipes)",
+        "11/enabled": "not(vanilla_armor_grid_recipes)",
+        "12/enabled": "not(vanilla_armor_grid_recipes)",
+        "13/enabled": "not(vanilla_armor_grid_recipes)",
+        "14/enabled": "not(vanilla_armor_grid_recipes)",
+        "15/enabled": "not(vanilla_armor_grid_recipes)",
+        "16/enabled": "not(vanilla_armor_grid_recipes)",
+        "17/enabled": "not(vanilla_armor_grid_recipes)",
+        "18/enabled": "not(vanilla_armor_grid_recipes)",
+        "19/enabled": "not(vanilla_armor_grid_recipes)",
+        "20/enabled": "not(vanilla_armor_grid_recipes)",
+        "21/enabled": "not(vanilla_armor_grid_recipes)",
+        "22/enabled": "not(vanilla_armor_grid_recipes)",
+        "23/enabled": "not(vanilla_armor_grid_recipes)",
+        "24/enabled": "not(vanilla_armor_grid_recipes)",
+        "25/enabled": "not(vanilla_armor_grid_recipes)",
+        "26/enabled": "not(vanilla_armor_grid_recipes)",
+        "27/enabled": "not(vanilla_armor_grid_recipes)",
+        "28/enabled": "not(vanilla_armor_grid_recipes)",
+        "29/enabled": "not(vanilla_armor_grid_recipes)",
+        "30/enabled": "not(vanilla_armor_grid_recipes)",
+        "31/enabled": "not(vanilla_armor_grid_recipes)"
+      },
+      "armory:patches/armor-recipes.json": {
+        "0/enabled": "not(vanilla_armor_grid_recipes)",
+        "1/enabled": "not(vanilla_armor_grid_recipes)",
+        "2/enabled": "not(vanilla_armor_grid_recipes)"
       }
     },
     "number": {
@@ -289,6 +328,13 @@
     {
       "type": "separator",
       "title": "combatoverhaul:setting-title-server-side"
+    },
+    {
+      "code": "vanilla_armor_grid_recipes",
+      "type": "boolean",
+      "ingui": "combatoverhaul:setting-vanilla_armor_grid_recipes",
+      "comment": "combatoverhaul:setting-comment-vanilla_armor_grid_recipes",
+      "default": false
     },
     {
       "type": "separator",

@@ -64,15 +64,15 @@
   "game:charattribute-playerHeadDamageFactor-0.5": "+50% damage received to head",
   "game:charattribute-playerFaceDamageFactor-0.5": "+50% damage received to face",
   "game:charattribute-playerTorsoDamageFactor--0.5": "-50% damage received to torso",
-  "game:charattribute-rangedDamageTierBonusBluntAttack-1.1": "+1 damage tier for ranged attacks dealing blunt damage",
-  "game:charattribute-rangedDamageTierBonusSlashingAttack-1.1": "+1 damage tier for ranged attacks dealing slashing damage",
-  "game:charattribute-rangedDamageTierBonusPiercingAttack-1.1": "+1 damage tier for ranged attacks dealing piercing damage",
-  "game:charattribute-meleeDamageTierBonusBluntAttack--1.1": "-1 damage tier for melee attacks dealing blunt damage",
-  "game:charattribute-meleeDamageTierBonusPiercingAttack--1.1": "-1 damage tier for melee attacks dealing piercing damage",
-  "game:charattribute-meleeDamageTierBonusSlashingAttack--1.1": "-1 damage tier for melee attacks dealing slashing damage",
-  "game:charattribute-meleeDamageTierBonusBluntAttack-1.1": "+1 damage tier for melee attacks dealing blunt damage",
-  "game:charattribute-meleeDamageTierBonusPiercingAttack-1.1": "+1 damage tier for melee attacks dealing piercing damage",
-  "game:charattribute-meleeDamageTierBonusSlashingAttack-1.1": "+1 damage tier for melee attacks dealing slashing damage",
+  "game:charattribute-rangedDamageTierBonusBluntAttack-1": "+1 damage tier for ranged attacks dealing blunt damage",
+  "game:charattribute-rangedDamageTierBonusSlashingAttack-1": "+1 damage tier for ranged attacks dealing slashing damage",
+  "game:charattribute-rangedDamageTierBonusPiercingAttack-1": "+1 damage tier for ranged attacks dealing piercing damage",
+  "game:charattribute-meleeDamageTierBonusBluntAttack--1": "-1 damage tier for melee attacks dealing blunt damage",
+  "game:charattribute-meleeDamageTierBonusPiercingAttack--1": "-1 damage tier for melee attacks dealing piercing damage",
+  "game:charattribute-meleeDamageTierBonusSlashingAttack--1": "-1 damage tier for melee attacks dealing slashing damage",
+  "game:charattribute-meleeDamageTierBonusBluntAttack-1": "+1 damage tier for melee attacks dealing blunt damage",
+  "game:charattribute-meleeDamageTierBonusPiercingAttack-1": "+1 damage tier for melee attacks dealing piercing damage",
+  "game:charattribute-meleeDamageTierBonusSlashingAttack-1": "+1 damage tier for melee attacks dealing slashing damage",
 
   // Technically the new model is a reflex bow, not recurve
   "game:item-bow-recurve": "Reflex bow",
@@ -99,7 +99,9 @@
   "game:item-arrowhead-obsidian": "Obsidian arrow head",
   "game:item-sling": "Improvised sling",
   "item-sling-linen": "Sling",
+  "item-sling-sturdyleather": "Sturdy leather sling",
   "item-slingbullet-lead": "Lead sling bullet",
+  "item-slingbullet-iron": "Iron sling bullet",
   "item-slingbullet-obsidian": "Obsidian sling bullet",
   "item-slingbullet-clay-*": "Raw clay sling bullet",
   "item-slingbullet-redclay": "Clay sling bullet",
@@ -130,6 +132,8 @@
 
   "setting-title-client-side": "Client side settings (no world reload required)",
   "setting-title-server-side": "Server side settings",
+  "setting-vanilla_armor_grid_recipes": "Vanilla armor grid recipes",
+  "setting-comment-vanilla_armor_grid_recipes": "Allows vanilla armor and armor repair grid recipes that Combat Overhaul replaces. Requires world reload.",
   "setting-title-bow-settings": "Bows",
   "setting-title-spears-settings": "Spears",
   "setting-title-ranged-settings": "Ranged",
@@ -219,5 +223,7 @@
   "game:item-arrow-uraniumsteel": "Uranium steel arrow",
   "game:item-arrow-ferrousuranium": "Ferrous uranium arrow",
   "game:item-arrowhead-uraniumsteel": "Uranium steel arrowhead",
-  "game:item-arrowhead-ferrousuranium": "Ferrous uranium arrowhead"
+  "game:item-arrowhead-ferrousuranium": "Ferrous uranium arrowhead",
+  "handbook-craftingappearance-title": "Crafting appearance",
+  "handbook-craftingappearance-text": "Recipes may accept several matching material variants. Arrowheads, spearheads, handles, cloth, leather, or projectile materials that are copied by the recipe keep their material or color appearance on the crafted item."
 }

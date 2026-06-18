@@ -2,10 +2,15 @@
   "code": "sling",
   "class": "CombatOverhaul:Sling",
   "tags": ["weapon", "weapon-ranged", "sling"],
-  "variantgroups": [{"code": "material", "states": ["linen"]}],
+  "variantgroups": [{"code": "material", "states": ["linen", "sturdyleather"]}],
   "maxstacksize": 1,
   "durability": 600,
+  "durabilityByType": {"*-sturdyleather": 1200},
   "shape": {"base": "combatoverhaul:weapons/slings/sling"},
+  "texturesByType": {
+    "*-sturdyleather": {"rope": {"base": "game:block/cloth/linen/plain"}, "material": {"base": "game:block/leather/chromium"}},
+    "*": {"rope": {"base": "game:block/cloth/linen/plain"}, "material": {"base": "game:block/leather/plain"}}
+  },
   "tool": "sling",
   "behaviors": [
     {"name": "CombatOverhaul:AnimatableAttachable", "properties": {"animated-shape": "combatoverhaul:weapons/slings/sling"}},
@@ -25,6 +30,7 @@
     "BulletWildcard": "*slingbullet-*",
     "BulletDamageMultiplier": 1,
     "BulletDamageTier": 1,
+    "BulletDamageTierByType": {"*-sturdyleather": 2},
     "BulletVelocity": 1,
     "ProficiencyStats": ["rangedProficiency", "slingsProficiency"],
     "ReadyAnimation": "combatoverhaul:sling-ready",
