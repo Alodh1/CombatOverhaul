@@ -73,10 +73,10 @@
     "side": "Server",
     "file": "game:entities/animal/mammal/bear-adult",
     "op": "add",
-    "path": "/server/behaviors/9/aitasks/3/damageTierByType",
+    "path": "/server/behaviors/9/aitasks/2/damageTierByType",
     "value": {"*-black-*": 2, "*-brown-*": 3, "*-sun-*": 2, "*-panda-*": 2, "*-polar-*": 4}
   },
-  {"side": "Server", "file": "game:entities/animal/mammal/bear-adult", "op": "remove", "path": "/server/behaviors/9/aitasks/3/damageTier"},
+  {"side": "Server", "file": "game:entities/animal/mammal/bear-adult", "op": "remove", "path": "/server/behaviors/9/aitasks/2/damageTier"},
   {
     "side": "Server",
     "file": "game:entities/animal/mammal/bear-adult",
@@ -89,10 +89,7 @@
     "side": "Server",
     "file": "game:entities/animal/mammal/bear-adult",
     "op": "replace",
-    "path": "/server/behaviors/9/aitasks/3/damageByType",
+    "path": "/server/behaviors/9/aitasks/2/damageByType",
     "value": {"*-black-*": 10, "*-brown-*": 14, "*-sun-*": 6, "*-panda-*": 10, "*-polar-*": 16}
   },
-  {"side": "Server", "file": "game:entities/animal/mammal/bear-adult", "op": "remove", "path": "/server/behaviors/9/aitasks/3/damage"},
-  {"side": "Server", "file": "game:entities/animal/mammal/bear-adult", "op": "replace", "path": "/server/behaviors/9/aitasks/0/damageType", "value": "SlashingAttack"},
-  {"side": "Server", "file": "game:entities/animal/mammal/bear-adult", "op": "replace", "path": "/server/behaviors/9/aitasks/3/damageType", "value": "SlashingAttack"}
 ]
