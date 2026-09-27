@@ -54,15 +54,33 @@
     "spear-generic-flint": {
       "stone": {
         "base": "game:block/stone/{material}"
+      },
+      "head": {
+        "base": "game:block/stone/flint"
+      },
+      "edge": {
+        "base": "game:block/stone/flint"
       }
     },
     "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)": {
       "stone": {
         "base": "game:block/stone/rock/{material}1"
+      },
+      "head": {
+        "base": "game:block/stone/rock/{material}1"
+      },
+      "edge": {
+        "base": "game:block/stone/rock/{material}1"
       }
     },
     "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)": {
       "ingot": {
+        "base": "game:block/metal/ingot/{material}"
+      },
+      "head": {
+        "base": "game:block/metal/ingot/{material}"
+      },
+      "edge": {
         "base": "game:block/metal/ingot/{material}"
       }
     }
@@ -754,6 +772,19 @@
         }
       },
       {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "edge",
+              "Attribute": "headTexture",
+              "Default": "game:block/metal/ingot/iron",
+              "HandbookValues": []
+            }
+          ]
+        }
+      },
+      {
         "name": "Buffable"
       }
     ],
@@ -836,6 +867,19 @@
         }
       },
       {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "edge",
+              "Attribute": "headTexture",
+              "Default": "game:block/metal/ingot/meteoriciron",
+              "HandbookValues": []
+            }
+          ]
+        }
+      },
+      {
         "name": "Buffable"
       }
     ],
@@ -915,6 +959,19 @@
             "DurabilityDamage": 2,
             "DropChance": 1
           }
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "edge",
+              "Attribute": "headTexture",
+              "Default": "game:block/metal/ingot/steel",
+              "HandbookValues": []
+            }
+          ]
         }
       },
       {

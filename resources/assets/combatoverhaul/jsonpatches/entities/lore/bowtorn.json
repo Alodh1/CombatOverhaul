@@ -182,14 +182,14 @@
     "side": "Server",
     "file": "game:entities/lore/bowtorn",
     "op": "add",
-    "path": "/server/behaviors/5/minPlayerDistance",
+    "path": "/server/behaviors/5/minPlayerDistanceByType",
     "value": {"*-surface": 35, "*-deep": 35, "*-tainted": 50, "*-corrupt": 65, "*-nightmare": 80, "*-gearfoot": 120}
   },
   {
     "side": "Server",
     "file": "game:entities/lore/bowtorn",
     "op": "add",
-    "path": "/server/behaviors/6/minPlayerDistance",
+    "path": "/server/behaviors/6/minPlayerDistanceByType",
     "value": {"*-surface": 75, "*-deep": 75, "*-tainted": 90, "*-corrupt": 105, "*-nightmare": 120, "*-gearfoot": 200}
   },
   {"side": "Server", "file": "game:entities/lore/bowtorn", "op": "remove", "path": "/server/behaviors/8/aitasks/4/targetRange"},

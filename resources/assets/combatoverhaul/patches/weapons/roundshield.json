@@ -2011,6 +2011,38 @@
     "enabled": true,
     "file": "game:itemtypes/tool/roundshield",
     "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": {
+      "groupBy": [
+        "shield-woodmetal",
+        "shield-woodmetalleather",
+        "shield-metal"
+      ],
+      "ignoreCreativeInvStacks": true
+    }
+  },
+  {
+    "enabled": true,
+    "file": "game:itemtypes/tool/roundshield",
+    "op": "add",
+    "path": "/attributesByType",
+    "value": {
+      "shield-woodmetal": {
+        "handbook": {
+          "extraSections": [
+            {
+              "Title": "combatoverhaul:handbook-shield-wood-title",
+              "Text": "combatoverhaul:handbook-shield-woodmetal-text"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "file": "game:itemtypes/tool/roundshield",
+    "op": "addmerge",
     "path": "/durabilitybytype",
     "value": {
       "shield-crude": 160,

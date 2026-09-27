@@ -1,0 +1,20 @@
+[
+  {
+    "enabled": true,
+    "file": "game:blocktypes/wood/woodtyped/antlermount",
+    "op": "add",
+    "path": "/class",
+    "value": "CombatOverhaul:HandbookAntlerMount"
+  },
+  {
+    "enabled": true,
+    "file": "game:blocktypes/wood/woodtyped/antlermount",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": {
+      "groupBy": [
+        "antlermount-{type}"
+      ]
+    }
+  }
+]

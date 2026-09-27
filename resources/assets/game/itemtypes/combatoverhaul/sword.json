@@ -1,4 +1,4 @@
-﻿{
+{
   "code": "blade",
   "class": "CombatOverhaul:MeleeWeapon",
   "tags": [
@@ -787,7 +787,23 @@
   },
   "attributesByType": {
     "blade-falx-*": {
-      "ripHarvest": true
+      "ripHarvest": true,
+      "attachableToEntity": {
+        "categoryCode": "weaponfalx",
+        "attachedShapeBySlotCode": {
+          "frontrightside": {"base": "item/wearable/hooved/elk/weaponr-falx"},
+          "frontleftside": {"base": "item/wearable/hooved/elk/weaponl-falx"}
+        }
+      }
+    },
+    "blade-blackguard-iron": {
+      "attachableToEntity": {
+        "categoryCode": "weapon1m",
+        "attachedShapeBySlotCode": {
+          "frontrightside": {"base": "item/wearable/hooved/elk/weaponr-blackguard"},
+          "frontleftside": {"base": "item/wearable/hooved/elk/weaponl-blackguard"}
+        }
+      }
     }
   },
   "behaviorsByType": {
@@ -814,6 +830,19 @@
             "y2": 0,
             "z2": 0
           }
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "edge",
+              "Attribute": "bladeTexture",
+              "Default": "game:block/metal/ingot/iron",
+              "HandbookValues": []
+            }
+          ]
         }
       },
       {
@@ -846,6 +875,19 @@
         }
       },
       {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "edge",
+              "Attribute": "bladeTexture",
+              "Default": "game:block/metal/ingot/meteoriciron",
+              "HandbookValues": []
+            }
+          ]
+        }
+      },
+      {
         "name": "Buffable"
       }
     ],
@@ -872,6 +914,19 @@
             "y2": 0,
             "z2": 0
           }
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "edge",
+              "Attribute": "bladeTexture",
+              "Default": "game:block/metal/ingot/steel",
+              "HandbookValues": []
+            }
+          ]
         }
       },
       {

@@ -294,82 +294,12 @@
   },
   "attributes": {
     "handbook": {
-      "groupBy": [
-        "arrow-*"
-      ],
       "extraSections": [
         {
           "Title": "combatoverhaul:handbook-craftingappearance-title",
           "Text": "combatoverhaul:handbook-craftingappearance-text"
         }
       ]
-    }
-  },
-  "attributesByType": {
-    "*-crude": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-flint": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-obsidian": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-copper": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-tinbronze": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-bismuthbronze": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-blackbronze": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-gold": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-silver": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-meteoriciron": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-steel": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-erel": {
-      "handbook": {
-        "isDuplicate": true
-      }
-    },
-    "*-bone": {
-      "handbook": {
-        "isDuplicate": true
-      }
     }
   }
 }

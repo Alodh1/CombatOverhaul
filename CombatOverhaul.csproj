@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Combat Overhaul</ModName>
     <ModType>code</ModType>
-    <ModVersion>0.17.62</ModVersion>
+    <ModVersion>0.18.8</ModVersion>
     <ModId>combatoverhaulfork</ModId>
     <Description></Description>
     <Side>universal</Side>
@@ -19,10 +19,8 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <Dependencies Include="overhaulliblegacycompat" Version="1.0.7" />
+    <Dependencies Include="overhaulliblegacycompat" Version="1.2.3" />
     <Dependencies Include="jsonpatcheslib" Version="1.3.1" />
-    <Dependencies Include="animationslib" Version="0.0.2" />
-    <Dependencies Include="configlib" Version="1.11.1" />
     <Dependencies Include="vsimgui" Version="1.2.2" />
   </ItemGroup>
 
@@ -33,6 +31,10 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="tests\**\*.cs" />
+  </ItemGroup>
 
   <!-- Paths -->
   <PropertyGroup>
@@ -81,12 +83,6 @@
   <ItemGroup>
     <PackageReference Include="VSImGui" Version="0.0.6" />
     <Reference Include="$(GameDirectory)/**/*.dll" Private="false" />
-    <Reference Include="animationslib" Private="false" Condition="Exists('$(ExternalLibDir)/animationslib.dll')">
-      <HintPath>$(ExternalLibDir)/animationslib.dll</HintPath>
-    </Reference>
-    <Reference Include="configlib" Private="false" Condition="Exists('$(ExternalLibDir)/configlib.dll')">
-      <HintPath>$(ExternalLibDir)/configlib.dll</HintPath>
-    </Reference>
     <Reference Include="PlayerModelLib" Private="false" Condition="Exists('$(ExternalLibDir)/PlayerModelLib.dll')">
       <HintPath>$(ExternalLibDir)/PlayerModelLib.dll</HintPath>
     </Reference>
@@ -160,7 +156,7 @@
   <!-- Copies modicon, assets folder and native libraries if they exist into output directory -->
   <Target Name="CopyFilesToOutput" AfterTargets="Format" BeforeTargets="BeforeBuild">
     <ItemGroup>
-      <AssetsFolder Include="$(AssetsDir)/**/*.*" />
+      <AssetsFolder Include="$(AssetsDir)/**/*.*" Exclude="$(AssetsDir)/**/compatibility/wulksmithingaddons/**/*.*" />
       <ModIcon Include="$(ModIconFile)" />
     </ItemGroup>
     <RemoveDir Directories="$(OutputPath)/assets" />

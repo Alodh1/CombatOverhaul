@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <VintageStoryPath Condition="'$(VintageStoryPath)' == '' and '$(VINTAGE_STORY)' != ''">$(VINTAGE_STORY)</VintageStoryPath>
+    <VintageStoryPath Condition="'$(VintageStoryPath)' == ''">$(AppData)\Vintagestory</VintageStoryPath>
+    <ActiveModsDir Condition="'$(ActiveModsDir)' == ''">$(AppData)\VintagestoryData\Mods</ActiveModsDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.*" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>$(VintageStoryPath)\VintagestoryAPI.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\..\CombatOverhaul.csproj" ReferenceOutputAssembly="false" PrivateAssets="all" />
+    <ProjectReference Include="..\..\..\OverhaullibLegacy\Overhaullib.csproj" ReferenceOutputAssembly="false" PrivateAssets="all" />
+    <ProjectReference Include="..\..\..\Atlas\src\Atlas.XUnit\Atlas.XUnit.csproj" />
+  </ItemGroup>
+
+  <Target Name="StageCombatOverhaulDependenciesForAtlas" AfterTargets="Build">
+    <ItemGroup>
+      <_CombatOverhaulAtlasModFiles Include="..\..\bin\$(Configuration)\Mods\combatoverhaulfork\**\*.*" />
+      <_ToolsmithZip Include="$(ActiveModsDir)\toolsmith_*.zip" />
+      <_OverhaullibAtlasModFiles Include="..\..\..\OverhaullibLegacy\bin\$(Configuration)\Mods\overhaulliblegacycompat\**\*.*" />
+      <_JsonPatchesLibZip Include="$(ActiveModsDir)\jsonpatcheslib_*.zip" />
+      <_VsImGuiZip Include="$(ActiveModsDir)\vsimgui_*.zip" />
+    </ItemGroup>
+
+    <Error Condition="'@(_CombatOverhaulAtlasModFiles)' == ''" Text="CombatOverhaul build output was not found; cannot stage Atlas mod under test." />
+    <Error Condition="'@(_ToolsmithZip)' == ''" Text="toolsmith zip was not found in $(ActiveModsDir)." />
+    <Error Condition="'@(_OverhaullibAtlasModFiles)' == ''" Text="OverhaullibLegacy build output was not found; cannot stage Atlas dependency under test." />
+    <Error Condition="'@(_JsonPatchesLibZip)' == ''" Text="jsonpatcheslib zip was not found in $(ActiveModsDir)." />
+    <Error Condition="'@(_VsImGuiZip)' == ''" Text="vsimgui zip was not found in $(ActiveModsDir)." />
+
+    <RemoveDir Directories="$(TargetDir)mods\combatoverhaulfork" />
+    <RemoveDir Directories="$(TargetDir)mods\overhaulliblegacycompat" />
+    <MakeDir Directories="$(TargetDir)mods\combatoverhaulfork" />
+    <MakeDir Directories="$(TargetDir)mods\overhaulliblegacycompat" />
+    <MakeDir Directories="$(TargetDir)mods" />
+    <Delete Files="$(TargetDir)mods\animationslib.zip" />
+    <Delete Files="$(TargetDir)mods\configlib.zip" />
+
+    <Copy SourceFiles="@(_CombatOverhaulAtlasModFiles)"
+          DestinationFiles="@(_CombatOverhaulAtlasModFiles->'$(TargetDir)mods\combatoverhaulfork\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="false" />
+    <Copy SourceFiles="@(_OverhaullibAtlasModFiles)"
+          DestinationFiles="@(_OverhaullibAtlasModFiles->'$(TargetDir)mods\overhaulliblegacycompat\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="false" />
+    <Copy SourceFiles="@(_ToolsmithZip)" DestinationFiles="@(_ToolsmithZip->'$(TargetDir)mods\toolsmith.zip')" SkipUnchangedFiles="false" />
+    <Copy SourceFiles="@(_JsonPatchesLibZip)" DestinationFiles="@(_JsonPatchesLibZip->'$(TargetDir)mods\jsonpatcheslib.zip')" SkipUnchangedFiles="false" />
+    <Copy SourceFiles="@(_VsImGuiZip)" DestinationFiles="@(_VsImGuiZip->'$(TargetDir)mods\vsimgui.zip')" SkipUnchangedFiles="false" />
+  </Target>
+
+  <Import Project="..\..\..\Atlas\build\Atlas.E2E.targets" />
+
+</Project>

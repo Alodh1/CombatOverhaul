@@ -7,6 +7,14 @@
       },
       "game:itemtypes/combatoverhaul/arrow.json": {
         "behaviors/1/properties/stats/HitSound": "(arrow_ping_sound_on_hit) ? value : empty_string"
+      },
+      "game:itemtypes/combatoverhaul/spear.json": {
+        "attributes/Modes/@@*/OneHandedStance/AttackDirectionsType": "(spears_directional_attacks) ? value : no_directions",
+        "attributes/Modes/@@*/TwoHandedStance/AttackDirectionsType": "(spears_directional_attacks) ? value : no_directions"
+      },
+      "game:itemtypes/combatoverhaul/spear-devimpale.json": {
+        "attributes/Modes/@@*/OneHandedStance/AttackDirectionsType": "(spears_directional_attacks) ? value : no_directions",
+        "attributes/Modes/@@*/TwoHandedStance/AttackDirectionsType": "(spears_directional_attacks) ? value : no_directions"
       }
     },
     "boolean": {
@@ -22,9 +30,6 @@
       "combatoverhaul:jsonpatches/entities/player.json": {
         "0/value/secondChanceAvailable": "second_chance_available",
         "1/value/secondChanceAvailable": "second_chance_available"
-      },
-      "game:itemtypes/combatoverhaul/bow.json": {
-        "attributes/TwoHanded": "bow_two_handed"
       },
       "@@combatoverhaul:jsonpatches/entities/animals/(bear|deer|fox|gazelle|goat|hyena|moose|pig-wild|raccoon|sheep-bighorn|wolf).json": {
         "0/enabled": "not(short_entity_info)"
@@ -124,54 +129,54 @@
         "1/value/damageModel/Zones/8-12/DamageMultiplier": "player_model_legs_damage"
       },
       "combatoverhaul:jsonpatches/entities/lore/bowtorn.json": {
-        "8/value/SeekingRangeByType/*-surface": "bowtorn_maxrange_surface + 5",
-        "8/value/FiringRangeMaxByType/*-surface": "bowtorn_maxrange_surface",
-        "8/value/ProjectileSpeedByType/*-surface": "bowtorn_projectile_velocity_surface",
-        "9/value/*-surface": "(bowtorn_maxrange_surface - 14) / 2 + 14",
-        "10/value/*-surface": "bowtorn_maxrange_surface - ((bowtorn_maxrange_surface - 14) / 2 + 14)",
-        "11/value/*-surface": "bowtorn_maxrange_surface * 1.2",
-        "12/value/*-surface": "bowtorn_maxrange_surface * 1.2",
-        "13/value/*-surface": "bowtorn_maxrange_surface * 2",
-        "8/value/SeekingRangeByType/*-deep": "bowtorn_maxrange_deep + 5",
-        "8/value/FiringRangeMaxByType/*-deep": "bowtorn_maxrange_deep",
-        "8/value/ProjectileSpeedByType/*-deep": "bowtorn_projectile_velocity_deep",
-        "9/value/*-deep": "(bowtorn_maxrange_deep - 14) / 2 + 14",
-        "10/value/*-deep": "bowtorn_maxrange_deep - ((bowtorn_maxrange_deep - 14) / 2 + 14)",
-        "11/value/*-deep": "bowtorn_maxrange_deep * 1.2",
-        "12/value/*-deep": "bowtorn_maxrange_deep * 1.2",
-        "13/value/*-deep": "bowtorn_maxrange_deep * 2",
-        "8/value/SeekingRangeByType/*-tainted": "bowtorn_maxrange_tainted + 5",
-        "8/value/FiringRangeMaxByType/*-tainted": "bowtorn_maxrange_tainted",
-        "8/value/ProjectileSpeedByType/*-tainted": "bowtorn_projectile_velocity_tainted",
-        "9/value/*-tainted": "(bowtorn_maxrange_tainted - 14) / 2 + 14",
-        "10/value/*-tainted": "bowtorn_maxrange_tainted - ((bowtorn_maxrange_tainted - 14) / 2 + 14)",
-        "11/value/*-tainted": "bowtorn_maxrange_tainted * 1.2",
-        "12/value/*-tainted": "bowtorn_maxrange_tainted * 1.2",
-        "13/value/*-tainted": "bowtorn_maxrange_tainted * 2",
-        "8/value/SeekingRangeByType/*-corrupt": "bowtorn_maxrange_corrupt + 5",
-        "8/value/FiringRangeMaxByType/*-corrupt": "bowtorn_maxrange_corrupt",
-        "8/value/ProjectileSpeedByType/*-corrupt": "bowtorn_projectile_velocity_corrupt",
-        "9/value/*-corrupt": "(bowtorn_maxrange_corrupt - 14) / 2 + 14",
-        "10/value/*-corrupt": "bowtorn_maxrange_corrupt - ((bowtorn_maxrange_corrupt - 14) / 2 + 14)",
-        "11/value/*-corrupt": "bowtorn_maxrange_corrupt * 1.2",
-        "12/value/*-corrupt": "bowtorn_maxrange_corrupt * 1.2",
-        "13/value/*-corrupt": "bowtorn_maxrange_corrupt * 2",
-        "8/value/SeekingRangeByType/*-nightmare": "bowtorn_maxrange_nightmare + 5",
-        "8/value/FiringRangeMaxByType/*-nightmare": "bowtorn_maxrange_nightmare",
-        "8/value/ProjectileSpeedByType/*-nightmare": "bowtorn_projectile_velocity_nightmare",
-        "9/value/*-nightmare": "(bowtorn_maxrange_nightmare - 14) / 2 + 14",
-        "10/value/*-nightmare": "bowtorn_maxrange_nightmare - ((bowtorn_maxrange_nightmare - 14) / 2 + 14)",
-        "11/value/*-nightmare": "bowtorn_maxrange_nightmare * 1.2",
-        "12/value/*-nightmare": "bowtorn_maxrange_nightmare * 1.2",
-        "13/value/*-nightmare": "bowtorn_maxrange_nightmare * 2",
-        "8/value/SeekingRangeByType/*-gearfoot": "bowtorn_maxrange_gearfoot + 5",
-        "8/value/FiringRangeMaxByType/*-gearfoot": "bowtorn_maxrange_gearfoot",
-        "8/value/ProjectileSpeedByType/*-gearfoot": "bowtorn_projectile_velocity_gearfoot",
-        "9/value/*-gearfoot": "(bowtorn_maxrange_gearfoot - 14) / 2 + 14",
-        "10/value/*-gearfoot": "bowtorn_maxrange_gearfoot - ((bowtorn_maxrange_gearfoot - 14) / 2 + 14)",
-        "11/value/*-gearfoot": "bowtorn_maxrange_gearfoot * 1.2",
-        "12/value/*-gearfoot": "bowtorn_maxrange_gearfoot * 1.2",
-        "13/value/*-gearfoot": "bowtorn_maxrange_gearfoot * 2"
+        "6/value/SeekingRangeByType/*-surface": "bowtorn_maxrange_surface + 5",
+        "6/value/FiringRangeMaxByType/*-surface": "bowtorn_maxrange_surface",
+        "6/value/ProjectileSpeedByType/*-surface": "bowtorn_projectile_velocity_surface",
+        "7/value/*-surface": "(bowtorn_maxrange_surface - 14) / 2 + 14",
+        "8/value/*-surface": "bowtorn_maxrange_surface - ((bowtorn_maxrange_surface - 14) / 2 + 14)",
+        "9/value/*-surface": "bowtorn_maxrange_surface * 1.2",
+        "10/value/*-surface": "bowtorn_maxrange_surface * 1.2",
+        "11/value/*-surface": "bowtorn_maxrange_surface * 2",
+        "6/value/SeekingRangeByType/*-deep": "bowtorn_maxrange_deep + 5",
+        "6/value/FiringRangeMaxByType/*-deep": "bowtorn_maxrange_deep",
+        "6/value/ProjectileSpeedByType/*-deep": "bowtorn_projectile_velocity_deep",
+        "7/value/*-deep": "(bowtorn_maxrange_deep - 14) / 2 + 14",
+        "8/value/*-deep": "bowtorn_maxrange_deep - ((bowtorn_maxrange_deep - 14) / 2 + 14)",
+        "9/value/*-deep": "bowtorn_maxrange_deep * 1.2",
+        "10/value/*-deep": "bowtorn_maxrange_deep * 1.2",
+        "11/value/*-deep": "bowtorn_maxrange_deep * 2",
+        "6/value/SeekingRangeByType/*-tainted": "bowtorn_maxrange_tainted + 5",
+        "6/value/FiringRangeMaxByType/*-tainted": "bowtorn_maxrange_tainted",
+        "6/value/ProjectileSpeedByType/*-tainted": "bowtorn_projectile_velocity_tainted",
+        "7/value/*-tainted": "(bowtorn_maxrange_tainted - 14) / 2 + 14",
+        "8/value/*-tainted": "bowtorn_maxrange_tainted - ((bowtorn_maxrange_tainted - 14) / 2 + 14)",
+        "9/value/*-tainted": "bowtorn_maxrange_tainted * 1.2",
+        "10/value/*-tainted": "bowtorn_maxrange_tainted * 1.2",
+        "11/value/*-tainted": "bowtorn_maxrange_tainted * 2",
+        "6/value/SeekingRangeByType/*-corrupt": "bowtorn_maxrange_corrupt + 5",
+        "6/value/FiringRangeMaxByType/*-corrupt": "bowtorn_maxrange_corrupt",
+        "6/value/ProjectileSpeedByType/*-corrupt": "bowtorn_projectile_velocity_corrupt",
+        "7/value/*-corrupt": "(bowtorn_maxrange_corrupt - 14) / 2 + 14",
+        "8/value/*-corrupt": "bowtorn_maxrange_corrupt - ((bowtorn_maxrange_corrupt - 14) / 2 + 14)",
+        "9/value/*-corrupt": "bowtorn_maxrange_corrupt * 1.2",
+        "10/value/*-corrupt": "bowtorn_maxrange_corrupt * 1.2",
+        "11/value/*-corrupt": "bowtorn_maxrange_corrupt * 2",
+        "6/value/SeekingRangeByType/*-nightmare": "bowtorn_maxrange_nightmare + 5",
+        "6/value/FiringRangeMaxByType/*-nightmare": "bowtorn_maxrange_nightmare",
+        "6/value/ProjectileSpeedByType/*-nightmare": "bowtorn_projectile_velocity_nightmare",
+        "7/value/*-nightmare": "(bowtorn_maxrange_nightmare - 14) / 2 + 14",
+        "8/value/*-nightmare": "bowtorn_maxrange_nightmare - ((bowtorn_maxrange_nightmare - 14) / 2 + 14)",
+        "9/value/*-nightmare": "bowtorn_maxrange_nightmare * 1.2",
+        "10/value/*-nightmare": "bowtorn_maxrange_nightmare * 1.2",
+        "11/value/*-nightmare": "bowtorn_maxrange_nightmare * 2",
+        "6/value/SeekingRangeByType/*-gearfoot": "bowtorn_maxrange_gearfoot + 5",
+        "6/value/FiringRangeMaxByType/*-gearfoot": "bowtorn_maxrange_gearfoot",
+        "6/value/ProjectileSpeedByType/*-gearfoot": "bowtorn_projectile_velocity_gearfoot",
+        "7/value/*-gearfoot": "(bowtorn_maxrange_gearfoot - 14) / 2 + 14",
+        "8/value/*-gearfoot": "bowtorn_maxrange_gearfoot - ((bowtorn_maxrange_gearfoot - 14) / 2 + 14)",
+        "9/value/*-gearfoot": "bowtorn_maxrange_gearfoot * 1.2",
+        "10/value/*-gearfoot": "bowtorn_maxrange_gearfoot * 1.2",
+        "11/value/*-gearfoot": "bowtorn_maxrange_gearfoot * 2"
       },
       "combatoverhaul:config/animations/bows.json": {
         "@@bow-draw-*/PlayerKeyFrames/1/FOVMultiplier": "(bow_fov_effect) ? clamp(1 - (1 - value) * bow_fov_multiplier, 0.01, 1) : 1",
@@ -182,6 +187,7 @@
   },
   "constants": {
     "empty_string": "",
+    "no_directions": "None",
     "vanilla_axe": "ItemAxe",
     "vanilla_item": "Item"
   },
@@ -335,6 +341,13 @@
       "ingui": "combatoverhaul:setting-vanilla_armor_grid_recipes",
       "comment": "combatoverhaul:setting-comment-vanilla_armor_grid_recipes",
       "default": false
+    },
+    {
+      "code": "toolsmith_integration_enabled",
+      "type": "boolean",
+      "ingui": "combatoverhaul:setting-toolsmith_integration_enabled",
+      "comment": "combatoverhaul:setting-comment-toolsmith_integration_enabled",
+      "default": true
     },
     {
       "type": "separator",

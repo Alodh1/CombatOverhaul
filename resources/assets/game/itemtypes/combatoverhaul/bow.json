@@ -117,6 +117,44 @@
       }
     }
   },
+  "attributesByType": {
+    "*-crude": {
+      "attachableToEntity": {
+        "categoryCode": "bowshort",
+        "attachedShapeBySlotCode": {
+          "frontrightside": {"base": "item/wearable/hooved/elk/weaponr-bow-crude"},
+          "frontleftside": {"base": "item/wearable/hooved/elk/weaponl-bow-crude"}
+        }
+      }
+    },
+    "*-long": {
+      "attachableToEntity": {
+        "categoryCode": "bowlong",
+        "attachedShapeBySlotCode": {
+          "frontrightside": {"base": "item/wearable/hooved/elk/weaponr-bow-long"},
+          "frontleftside": {"base": "item/wearable/hooved/elk/weaponl-bow-long"}
+        }
+      }
+    },
+    "*-recurve": {
+      "attachableToEntity": {
+        "categoryCode": "bowlong",
+        "attachedShapeBySlotCode": {
+          "frontrightside": {"base": "item/wearable/hooved/elk/weaponr-bow-recurve"},
+          "frontleftside": {"base": "item/wearable/hooved/elk/weaponl-bow-recurve"}
+        }
+      }
+    },
+    "*-simple": {
+      "attachableToEntity": {
+        "categoryCode": "bowshort",
+        "attachedShapeBySlotCode": {
+          "frontrightside": {"base": "item/wearable/hooved/elk/weaponr-bow-simple"},
+          "frontleftside": {"base": "item/wearable/hooved/elk/weaponl-bow-simple"}
+        }
+      }
+    }
+  },
   "shape": {"base": "combatoverhaul:weapons/bows/{type}"},
   "guiTransformByType": {
     "*-crude": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -95, "y": 45, "z": 37}, "origin": {"x": 0.47, "y": 0, "z": 0.55}, "scale": 2},

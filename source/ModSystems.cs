@@ -1,6 +1,7 @@
-﻿using AnimationsLib;
+﻿using CombatOverhaul.Animations;
 using CombatOverhaul.Armor;
 using CombatOverhaul.Colliders;
+using CombatOverhaul.Compatibility;
 using CombatOverhaul.DamageSystems;
 using CombatOverhaul.Integration;
 using CombatOverhaul.source;
@@ -18,10 +19,15 @@ namespace CombatOverhaul;
 
 public sealed class CombatOverhaulAdditionalSystem : ModSystem
 {
+    private ICoreAPI? _api;
+    private CombatOverhaulSystem? _combatOverhaulSystem;
+
     public override void StartPre(ICoreAPI api)
     {
         (api as ServerCoreAPI)?.ClassRegistryNative.RegisterInventoryClass(GlobalConstants.characterInvClassName, typeof(ArmorInventory));
         (api as ClientCoreAPI)?.ClassRegistryNative.RegisterInventoryClass(GlobalConstants.characterInvClassName, typeof(ArmorInventory));
+
+        api.RegisterEntityBehaviorClass("CombatOverhaul:ShowStatsBehavior", typeof(ShowStatsBehavior));
     }
     public override void StartClientSide(ICoreClientAPI api)
     {
@@ -29,15 +35,32 @@ public sealed class CombatOverhaulAdditionalSystem : ModSystem
     }
     public override void Start(ICoreAPI api)
     {
-        api.RegisterEntityBehaviorClass("CombatOverhaul:ShowStatsBehavior", typeof(ShowStatsBehavior));
+        _api = api;
+        _combatOverhaulSystem = api.ModLoader.GetModSystem<CombatOverhaulSystem>();
+        if (_combatOverhaulSystem != null)
+        {
+            _combatOverhaulSystem.SettingsLoaded += OnSettingsChanged;
+            _combatOverhaulSystem.SettingsChanged += OnSettingsChanged;
+        }
+
+        ApplyToolsmithIntegrationState(api);
     }
 
     public override void AssetsFinalize(ICoreAPI api)
     {
-        if (api.Side == EnumAppSide.Server)
+        bool toolsmithIntegrationEnabled = IsToolsmithIntegrationEnabled(api);
+        if (toolsmithIntegrationEnabled)
         {
-            ArmorAutoPatcher.Patch(api);
+            ToolsmithCompat.Patch(api);
         }
+        else
+        {
+            ToolsmithCompat.PatchDisabledAssemblyBlocker(api);
+        }
+
+        ToolsmithCompat.AssetsFinalize(api, toolsmithIntegrationEnabled);
+
+        ArmorAutoPatcher.Patch(api);
 
         if (api is ICoreClientAPI clientApi)
         {
@@ -54,10 +77,43 @@ public sealed class CombatOverhaulAdditionalSystem : ModSystem
     {
         base.Dispose();
 
+        if (_combatOverhaulSystem != null)
+        {
+            _combatOverhaulSystem.SettingsLoaded -= OnSettingsChanged;
+            _combatOverhaulSystem.SettingsChanged -= OnSettingsChanged;
+            _combatOverhaulSystem = null;
+        }
+
+        _api = null;
+        ToolsmithCompat.Unpatch();
         Disposed = true;
     }
 
     private bool Disposed = false;
+
+    private void OnSettingsChanged(Settings settings)
+    {
+        if (_api == null) return;
+
+        ApplyToolsmithIntegrationState(_api);
+    }
+
+    private static void ApplyToolsmithIntegrationState(ICoreAPI api)
+    {
+        if (IsToolsmithIntegrationEnabled(api))
+        {
+            ToolsmithCompat.Patch(api);
+        }
+        else
+        {
+            ToolsmithCompat.PatchDisabledAssemblyBlocker(api);
+        }
+    }
+
+    private static bool IsToolsmithIntegrationEnabled(ICoreAPI api)
+    {
+        return api.ModLoader.GetModSystem<CombatOverhaulSystem>()?.Settings.ToolsmithIntegrationEnabled ?? true;
+    }
 
     private void CheckStatusClientSide(ICoreClientAPI api)
     {

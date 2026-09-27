@@ -1,0 +1,188 @@
+{
+  "code": "wulk-toolblade",
+  "enabled": false,
+  "class": "Item",
+  "variantgroups": [
+    {
+      "code": "tool",
+      "states": []
+    },
+    {
+      "code": "material",
+      "states": []
+    }
+  ],
+  "maxstacksize": 4,
+  "shapeByType": {
+    "wulk-toolblade-falx-*": {
+      "base": "combatoverhaul:weapons/falx/falx-steel"
+    }
+  },
+  "textures": {
+    "blade": {
+      "base": "game:block/metal/ingot/{material}"
+    },
+    "edge": {
+      "base": "game:block/metal/ingot/{material}"
+    },
+    "head": {
+      "base": "game:block/metal/ingot/{material}"
+    },
+    "metal": {
+      "base": "game:block/metal/ingot/{material}"
+    },
+    "material": {
+      "base": "game:block/metal/ingot/{material}"
+    },
+    "falxblade": {
+      "base": "game:block/metal/ingot/{material}"
+    },
+    "falxstring": {
+      "base": "game:block/transparent"
+    },
+    "handle": {
+      "base": "game:block/transparent"
+    }
+  },
+  "attributes": {
+    "inForgeTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.18
+      },
+      "origin": {
+        "x": 0.8,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    "forgable": true,
+    "quenchBuffKind": "weapon",
+    "onTongTransform": {
+      "translation": {
+        "x": -1.2,
+        "y": -0.45,
+        "z": -0.75
+      },
+      "rotation": {
+        "x": -70,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.8,
+        "y": 0.5,
+        "z": 0.5
+      }
+    },
+    "tongOpening": "medium",
+    "onMetalTongTransform": {
+      "translation": {
+        "x": -1.2,
+        "y": -0.13,
+        "z": -0.55
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.8,
+        "y": 0.5,
+        "z": 0.5
+      }
+    },
+    "handbook": {
+      "groupBy": [
+        "wulk-toolblade-*"
+      ],
+      "visualGroupBy": [
+        "wulk-toolblade-*"
+      ]
+    }
+  },
+  "behaviorsByType": {
+    "*": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Quadrants",
+          "placeRemoveSound": "sounds/player/build",
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          }
+        }
+      }
+    ]
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "armory-parts": [
+      "*"
+    ],
+    "wulks smithing addons": [
+      "*"
+    ]
+  },
+  "guiTransform": {
+    "rotation": {
+      "x": -51,
+      "y": 44,
+      "z": -6
+    },
+    "origin": {
+      "x": 0.8799,
+      "y": 0.8,
+      "z": 0
+    },
+    "scale": 1.5
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": 0.2,
+      "y": 0,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.6
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.04,
+      "z": 0
+    },
+    "rotation": {
+      "x": -2,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 3
+  }
+}

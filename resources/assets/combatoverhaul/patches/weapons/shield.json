@@ -2011,6 +2011,18 @@
     "enabled": true,
     "file": "game:itemtypes/tool/shield",
     "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": {
+      "groupBy": [
+        "shield-*"
+      ],
+      "ignoreCreativeInvStacks": true
+    }
+  },
+  {
+    "enabled": true,
+    "file": "game:itemtypes/tool/shield",
+    "op": "addmerge",
     "path": "/durabilitybytype",
     "value": {
       "shield-crude": 160,

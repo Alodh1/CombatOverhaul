@@ -32,5 +32,5 @@
   "fpHandTransform": {"translation": {"x": 0.35, "y": 0, "z": 0}, "rotation": {"x": 87, "y": 90, "z": -30}, "scale": 1.14},
   "tpHandTransform": {"translation": {"x": -1.05, "y": -0.4599, "z": -0.87}, "rotation": {"x": 0, "y": 2, "z": 3}, "scale": 0.55},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0.5, "y": -0.03, "z": 0.5}, "scale": 2.64},
-  "attributes": {"handbook": {"groupBy": ["arrow-*"]}}
+  "attributes": {}
 }

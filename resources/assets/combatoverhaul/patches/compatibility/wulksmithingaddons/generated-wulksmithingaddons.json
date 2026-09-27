@@ -1,0 +1,2577 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/allowedVariants",
+    "value": [
+      "blade-falx-springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "blade-falx-iron": {
+        "base": "combatoverhaul:weapons/falx/falx-iron"
+      },
+      "blade-falx-meteoriciron": {
+        "base": "combatoverhaul:weapons/falx/falx-meteoriciron"
+      },
+      "blade-falx-steel": {
+        "base": "combatoverhaul:weapons/falx/falx-steel"
+      },
+      "blade-falx-springsteel": {
+        "base": "combatoverhaul:weapons/falx/falx-steel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "blade-falx-springsteel": {
+        "blade": {
+          "base": "game:block/metal/ingot/springsteel"
+        },
+        "edge": {
+          "base": "game:block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "blade-falx-springsteel": 1500
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-springsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "edge",
+                "Attribute": "bladeTexture",
+                "Default": "game:block/metal/ingot/springsteel",
+                "HandbookValues": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OneHandedStanceByType": {
+        "*-falx-*": {
+          "Attack": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-springsteel": {
+                    "DamageType": "SlashingAttack",
+                    "Tier": 8,
+                    "Damage": 4
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*-springsteel": {
+        "ingot": {
+          "base": "game:block/metal/ingot/springsteel"
+        },
+        "head": {
+          "base": "game:block/metal/ingot/springsteel"
+        },
+        "edge": {
+          "base": "game:block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-springsteel": {
+        "base": "combatoverhaul:weapons/spears/spear-steel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-springsteel": 1500
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-*-springsteel": {
+        "handbook": {
+          "isDuplicate": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-springsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 3,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:Projectile",
+          "properties": {
+            "stats": {
+              "AdditionalDurabilityCost": 0,
+              "CollisionRadius": 0.05,
+              "DamageStatsByType": {
+                "*-flint": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 4
+                },
+                "*-obsidian": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 4
+                },
+                "*-copper": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 4
+                },
+                "*-*bronze": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 6
+                },
+                "*-*iron": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 6
+                },
+                "*-ornategold": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 6
+                },
+                "*-ornatesilver": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 6
+                },
+                "*-steel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 6
+                },
+                "*": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 2
+                }
+              },
+              "HitSound": "game:sounds/player/projectilehit",
+              "SpeedThreshold": 0.3,
+              "Knockback": 0.3,
+              "EntityCode": "combatoverhaul:spear-generic-{material}",
+              "DurabilityDamage": 2,
+              "DropChance": 1
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "edge",
+                "Attribute": "headTexture",
+                "Default": "game:block/metal/ingot/springsteel",
+                "HandbookValues": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "DamageStatTemplates": {
+        "1h-spearhead": {
+          "TierByType": {
+            "*-springsteel": 7
+          }
+        },
+        "1.5h-spearhead": {
+          "TierByType": {
+            "*-springsteel": 7
+          }
+        },
+        "2h-spearhead": {
+          "TierByType": {
+            "*-springsteel": 7
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-springsteel": {
+        "base": "combatoverhaul:ammo/arrows/envelop"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/combatoverhaul/arrow",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*-springsteel": {
+        "material": {
+          "base": "game:block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:itemtypes/sewingkit",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:itemtypes/sewingkit",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-*-*-springsteel": {
+        "handbook": {
+          "isDuplicate": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/client/shapeByType",
+    "value": {
+      "spear-generic-springsteel": {
+        "base": "combatoverhaul:weapons/spears/spear-steel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:entities/spear",
+    "op": "addmerge",
+    "path": "/client/texturesByType",
+    "value": {
+      "spear-generic-springsteel": {
+        "ingot": {
+          "base": "game:block/metal/ingot/springsteel"
+        },
+        "head": {
+          "base": "game:block/metal/ingot/springsteel"
+        },
+        "edge": {
+          "base": "game:block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:entities/arrow",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:entities/arrow",
+    "op": "addmerge",
+    "path": "/client/shapeByType",
+    "value": {
+      "*-springsteel": {
+        "base": "combatoverhaul:ammo/arrows/envelop"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:entities/arrow",
+    "op": "addmerge",
+    "path": "/client/texturesByType",
+    "value": {
+      "*-springsteel": {
+        "material": {
+          "base": "game:block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/toolhead/arrowhead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/toolhead/arrowhead",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-springsteel": {
+        "base": "item/tool/arrowhead-copper"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/toolhead/arrowhead",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*-springsteel": {
+        "material": {
+          "base": "block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/smithing/6arrowhead",
+    "op": "addmerge",
+    "path": "/ingredient/allowedVariants",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/smithing/9arrowhead",
+    "op": "addmerge",
+    "path": "/ingredient/allowedVariants",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/toolhead/spearhead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/toolhead/spearhead",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-springsteel": [
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        },
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.125,
+              "z2": 1
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/toolhead/spearhead",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "spearhead-springsteel": {
+        "base": "item/tool/spear/metal-steel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/toolhead/spearhead",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "spearhead-springsteel": {
+        "ingot": {
+          "base": "block/metal/ingot/springsteel"
+        },
+        "string": {
+          "base": "block/transparent"
+        },
+        "handle": {
+          "base": "block/transparent"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:itemtypes/toolhead/spearhead",
+    "op": "addmerge",
+    "path": "/attributes/forgableByType",
+    "value": {
+      "spearhead-springsteel": true
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/smithing/spear-iron",
+    "op": "addmerge",
+    "path": "/ingredient/allowedVariants",
+    "value": [
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:itemtypes/compatibility/wulksmithingaddons/toolblade",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "falx"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:itemtypes/compatibility/wulksmithingaddons/toolblade",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "iron",
+      "meteoriciron",
+      "steel",
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:itemtypes/compatibility/wulksmithingaddons/toolbody",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "falx"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:itemtypes/compatibility/wulksmithingaddons/toolbody",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "iron",
+      "meteoriciron",
+      "steel",
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:itemtypes/compatibility/wulksmithingaddons/toolhead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "falx"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:itemtypes/compatibility/wulksmithingaddons/toolhead",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "iron",
+      "meteoriciron",
+      "steel",
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "combatoverhaul:itemtypes/compatibility/wulksmithingaddons/toolhead",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "iron",
+      "meteoriciron",
+      "steel",
+      "springsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/smithing/parts",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-toolbody-falx-iron",
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-iron"
+      },
+      "pattern": [
+        [
+          "####",
+          "_##_",
+          "_##_"
+        ]
+      ],
+      "name": "falx body",
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolbody-falx-iron"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/smithing/parts",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-toolblade-falx-iron",
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-iron"
+      },
+      "pattern": [
+        [
+          "_####",
+          "####_",
+          "###__"
+        ]
+      ],
+      "name": "falx blade",
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolblade-falx-iron"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/smithing/parts",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-toolbody-falx-meteoriciron",
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-meteoriciron"
+      },
+      "pattern": [
+        [
+          "####",
+          "_##_",
+          "_##_"
+        ]
+      ],
+      "name": "falx body",
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolbody-falx-meteoriciron"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/smithing/parts",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-toolblade-falx-meteoriciron",
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-meteoriciron"
+      },
+      "pattern": [
+        [
+          "_####",
+          "####_",
+          "###__"
+        ]
+      ],
+      "name": "falx blade",
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolblade-falx-meteoriciron"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/smithing/parts",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-toolbody-falx-steel",
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-steel"
+      },
+      "pattern": [
+        [
+          "####",
+          "_##_",
+          "_##_"
+        ]
+      ],
+      "name": "falx body",
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolbody-falx-steel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/smithing/parts",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-toolblade-falx-steel",
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-steel"
+      },
+      "pattern": [
+        [
+          "_####",
+          "####_",
+          "###__"
+        ]
+      ],
+      "name": "falx blade",
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolblade-falx-steel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/smithing/parts",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-toolbody-falx-springsteel",
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-springsteel"
+      },
+      "pattern": [
+        [
+          "####",
+          "_##_",
+          "_##_"
+        ]
+      ],
+      "name": "falx body",
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolbody-falx-springsteel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/smithing/parts",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-toolblade-falx-springsteel",
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-springsteel"
+      },
+      "pattern": [
+        [
+          "_####",
+          "####_",
+          "###__"
+        ]
+      ],
+      "name": "falx blade",
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolblade-falx-springsteel"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-iron-iron",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-iron"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-iron"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-iron-iron",
+        "attributes": {
+          "splitBodyMaterial": "iron",
+          "splitBladeMaterial": "iron",
+          "headMaterial": "iron",
+          "bladeMaterial": "iron",
+          "bladeTexture": "game:block/metal/ingot/iron",
+          "headTexture": "game:block/metal/ingot/iron",
+          "damageTierBonus": 0,
+          "damageMultiplier": 1,
+          "bodyTexture": "game:block/metal/ingot/iron"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-iron-iron",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-iron-iron"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-iron",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "iron",
+          "splitBladeMaterial": "iron",
+          "headMaterial": "iron",
+          "bladeMaterial": "iron",
+          "bladeTexture": "game:block/metal/ingot/iron",
+          "headTexture": "game:block/metal/ingot/iron",
+          "bodyTexture": "game:block/metal/ingot/iron",
+          "damageTierBonus": 0,
+          "damageMultiplier": 1.0
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-iron-meteoriciron",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-meteoriciron"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-iron"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-iron-meteoriciron",
+        "attributes": {
+          "splitBodyMaterial": "iron",
+          "splitBladeMaterial": "meteoriciron",
+          "headMaterial": "iron",
+          "bladeMaterial": "meteoriciron",
+          "bladeTexture": "game:block/metal/ingot/meteoriciron",
+          "headTexture": "game:block/metal/ingot/meteoriciron",
+          "damageTierBonus": 1,
+          "damageMultiplier": 0.98,
+          "bodyTexture": "game:block/metal/ingot/iron"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-iron-meteoriciron",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-iron-meteoriciron"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-iron",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "iron",
+          "splitBladeMaterial": "meteoriciron",
+          "headMaterial": "iron",
+          "bladeMaterial": "meteoriciron",
+          "bladeTexture": "game:block/metal/ingot/meteoriciron",
+          "headTexture": "game:block/metal/ingot/meteoriciron",
+          "bodyTexture": "game:block/metal/ingot/iron",
+          "damageTierBonus": 1,
+          "damageMultiplier": 0.98
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-iron-steel",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-steel"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-iron"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-iron-steel",
+        "attributes": {
+          "splitBodyMaterial": "iron",
+          "splitBladeMaterial": "steel",
+          "headMaterial": "iron",
+          "bladeMaterial": "steel",
+          "bladeTexture": "game:block/metal/ingot/steel",
+          "headTexture": "game:block/metal/ingot/steel",
+          "damageTierBonus": 2,
+          "damageMultiplier": 1,
+          "bodyTexture": "game:block/metal/ingot/iron"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-iron-steel",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-iron-steel"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-iron",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "iron",
+          "splitBladeMaterial": "steel",
+          "headMaterial": "iron",
+          "bladeMaterial": "steel",
+          "bladeTexture": "game:block/metal/ingot/steel",
+          "headTexture": "game:block/metal/ingot/steel",
+          "bodyTexture": "game:block/metal/ingot/iron",
+          "damageTierBonus": 2,
+          "damageMultiplier": 1.0
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-iron-springsteel",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-springsteel"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-iron"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-iron-springsteel",
+        "attributes": {
+          "splitBodyMaterial": "iron",
+          "splitBladeMaterial": "springsteel",
+          "headMaterial": "iron",
+          "bladeMaterial": "springsteel",
+          "bladeTexture": "game:block/metal/ingot/springsteel",
+          "headTexture": "game:block/metal/ingot/springsteel",
+          "damageTierBonus": 3,
+          "damageMultiplier": 1.05,
+          "bodyTexture": "game:block/metal/ingot/iron"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-iron-springsteel",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-iron-springsteel"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-iron",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "iron",
+          "splitBladeMaterial": "springsteel",
+          "headMaterial": "iron",
+          "bladeMaterial": "springsteel",
+          "bladeTexture": "game:block/metal/ingot/springsteel",
+          "headTexture": "game:block/metal/ingot/springsteel",
+          "bodyTexture": "game:block/metal/ingot/iron",
+          "damageTierBonus": 3,
+          "damageMultiplier": 1.05
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-meteoriciron-iron",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-iron"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-meteoriciron"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-meteoriciron-iron",
+        "attributes": {
+          "splitBodyMaterial": "meteoriciron",
+          "splitBladeMaterial": "iron",
+          "headMaterial": "meteoriciron",
+          "bladeMaterial": "iron",
+          "bladeTexture": "game:block/metal/ingot/iron",
+          "headTexture": "game:block/metal/ingot/iron",
+          "damageTierBonus": -1,
+          "damageMultiplier": 1,
+          "bodyTexture": "game:block/metal/ingot/meteoriciron"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-meteoriciron-iron",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-meteoriciron-iron"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-meteoriciron",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "meteoriciron",
+          "splitBladeMaterial": "iron",
+          "headMaterial": "meteoriciron",
+          "bladeMaterial": "iron",
+          "bladeTexture": "game:block/metal/ingot/iron",
+          "headTexture": "game:block/metal/ingot/iron",
+          "bodyTexture": "game:block/metal/ingot/meteoriciron",
+          "damageTierBonus": -1,
+          "damageMultiplier": 1.0
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-meteoriciron-meteoriciron",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-meteoriciron"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-meteoriciron"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-meteoriciron-meteoriciron",
+        "attributes": {
+          "splitBodyMaterial": "meteoriciron",
+          "splitBladeMaterial": "meteoriciron",
+          "headMaterial": "meteoriciron",
+          "bladeMaterial": "meteoriciron",
+          "bladeTexture": "game:block/metal/ingot/meteoriciron",
+          "headTexture": "game:block/metal/ingot/meteoriciron",
+          "damageTierBonus": 0,
+          "damageMultiplier": 0.98,
+          "bodyTexture": "game:block/metal/ingot/meteoriciron"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-meteoriciron-meteoriciron",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-meteoriciron-meteoriciron"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-meteoriciron",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "meteoriciron",
+          "splitBladeMaterial": "meteoriciron",
+          "headMaterial": "meteoriciron",
+          "bladeMaterial": "meteoriciron",
+          "bladeTexture": "game:block/metal/ingot/meteoriciron",
+          "headTexture": "game:block/metal/ingot/meteoriciron",
+          "bodyTexture": "game:block/metal/ingot/meteoriciron",
+          "damageTierBonus": 0,
+          "damageMultiplier": 0.98
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-meteoriciron-steel",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-steel"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-meteoriciron"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-meteoriciron-steel",
+        "attributes": {
+          "splitBodyMaterial": "meteoriciron",
+          "splitBladeMaterial": "steel",
+          "headMaterial": "meteoriciron",
+          "bladeMaterial": "steel",
+          "bladeTexture": "game:block/metal/ingot/steel",
+          "headTexture": "game:block/metal/ingot/steel",
+          "damageTierBonus": 1,
+          "damageMultiplier": 1,
+          "bodyTexture": "game:block/metal/ingot/meteoriciron"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-meteoriciron-steel",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-meteoriciron-steel"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-meteoriciron",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "meteoriciron",
+          "splitBladeMaterial": "steel",
+          "headMaterial": "meteoriciron",
+          "bladeMaterial": "steel",
+          "bladeTexture": "game:block/metal/ingot/steel",
+          "headTexture": "game:block/metal/ingot/steel",
+          "bodyTexture": "game:block/metal/ingot/meteoriciron",
+          "damageTierBonus": 1,
+          "damageMultiplier": 1.0
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-meteoriciron-springsteel",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-springsteel"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-meteoriciron"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-meteoriciron-springsteel",
+        "attributes": {
+          "splitBodyMaterial": "meteoriciron",
+          "splitBladeMaterial": "springsteel",
+          "headMaterial": "meteoriciron",
+          "bladeMaterial": "springsteel",
+          "bladeTexture": "game:block/metal/ingot/springsteel",
+          "headTexture": "game:block/metal/ingot/springsteel",
+          "damageTierBonus": 2,
+          "damageMultiplier": 1.05,
+          "bodyTexture": "game:block/metal/ingot/meteoriciron"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-meteoriciron-springsteel",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-meteoriciron-springsteel"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-meteoriciron",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "meteoriciron",
+          "splitBladeMaterial": "springsteel",
+          "headMaterial": "meteoriciron",
+          "bladeMaterial": "springsteel",
+          "bladeTexture": "game:block/metal/ingot/springsteel",
+          "headTexture": "game:block/metal/ingot/springsteel",
+          "bodyTexture": "game:block/metal/ingot/meteoriciron",
+          "damageTierBonus": 2,
+          "damageMultiplier": 1.05
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-steel-iron",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-iron"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-steel"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-steel-iron",
+        "attributes": {
+          "splitBodyMaterial": "steel",
+          "splitBladeMaterial": "iron",
+          "headMaterial": "steel",
+          "bladeMaterial": "iron",
+          "bladeTexture": "game:block/metal/ingot/iron",
+          "headTexture": "game:block/metal/ingot/iron",
+          "damageTierBonus": -2,
+          "damageMultiplier": 1,
+          "bodyTexture": "game:block/metal/ingot/steel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-steel-iron",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-steel-iron"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-steel",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "steel",
+          "splitBladeMaterial": "iron",
+          "headMaterial": "steel",
+          "bladeMaterial": "iron",
+          "bladeTexture": "game:block/metal/ingot/iron",
+          "headTexture": "game:block/metal/ingot/iron",
+          "bodyTexture": "game:block/metal/ingot/steel",
+          "damageTierBonus": -2,
+          "damageMultiplier": 1.0
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-steel-meteoriciron",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-meteoriciron"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-steel"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-steel-meteoriciron",
+        "attributes": {
+          "splitBodyMaterial": "steel",
+          "splitBladeMaterial": "meteoriciron",
+          "headMaterial": "steel",
+          "bladeMaterial": "meteoriciron",
+          "bladeTexture": "game:block/metal/ingot/meteoriciron",
+          "headTexture": "game:block/metal/ingot/meteoriciron",
+          "damageTierBonus": -1,
+          "damageMultiplier": 0.98,
+          "bodyTexture": "game:block/metal/ingot/steel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-steel-meteoriciron",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-steel-meteoriciron"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-steel",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "steel",
+          "splitBladeMaterial": "meteoriciron",
+          "headMaterial": "steel",
+          "bladeMaterial": "meteoriciron",
+          "bladeTexture": "game:block/metal/ingot/meteoriciron",
+          "headTexture": "game:block/metal/ingot/meteoriciron",
+          "bodyTexture": "game:block/metal/ingot/steel",
+          "damageTierBonus": -1,
+          "damageMultiplier": 0.98
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-steel-steel",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-steel"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-steel"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-steel-steel",
+        "attributes": {
+          "splitBodyMaterial": "steel",
+          "splitBladeMaterial": "steel",
+          "headMaterial": "steel",
+          "bladeMaterial": "steel",
+          "bladeTexture": "game:block/metal/ingot/steel",
+          "headTexture": "game:block/metal/ingot/steel",
+          "damageTierBonus": 0,
+          "damageMultiplier": 1,
+          "bodyTexture": "game:block/metal/ingot/steel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-steel-steel",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-steel-steel"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-steel",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "steel",
+          "splitBladeMaterial": "steel",
+          "headMaterial": "steel",
+          "bladeMaterial": "steel",
+          "bladeTexture": "game:block/metal/ingot/steel",
+          "headTexture": "game:block/metal/ingot/steel",
+          "bodyTexture": "game:block/metal/ingot/steel",
+          "damageTierBonus": 0,
+          "damageMultiplier": 1.0
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-steel-springsteel",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-springsteel"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-steel"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-steel-springsteel",
+        "attributes": {
+          "splitBodyMaterial": "steel",
+          "splitBladeMaterial": "springsteel",
+          "headMaterial": "steel",
+          "bladeMaterial": "springsteel",
+          "bladeTexture": "game:block/metal/ingot/springsteel",
+          "headTexture": "game:block/metal/ingot/springsteel",
+          "damageTierBonus": 1,
+          "damageMultiplier": 1.05,
+          "bodyTexture": "game:block/metal/ingot/steel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-steel-springsteel",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-steel-springsteel"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-steel",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "steel",
+          "splitBladeMaterial": "springsteel",
+          "headMaterial": "steel",
+          "bladeMaterial": "springsteel",
+          "bladeTexture": "game:block/metal/ingot/springsteel",
+          "headTexture": "game:block/metal/ingot/springsteel",
+          "bodyTexture": "game:block/metal/ingot/steel",
+          "damageTierBonus": 1,
+          "damageMultiplier": 1.05
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-springsteel-iron",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-iron"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-springsteel"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-springsteel-iron",
+        "attributes": {
+          "splitBodyMaterial": "springsteel",
+          "splitBladeMaterial": "iron",
+          "headMaterial": "springsteel",
+          "bladeMaterial": "iron",
+          "bladeTexture": "game:block/metal/ingot/iron",
+          "headTexture": "game:block/metal/ingot/iron",
+          "damageTierBonus": -3,
+          "damageMultiplier": 1,
+          "bodyTexture": "game:block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-springsteel-iron",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-springsteel-iron"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-springsteel",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "springsteel",
+          "splitBladeMaterial": "iron",
+          "headMaterial": "springsteel",
+          "bladeMaterial": "iron",
+          "bladeTexture": "game:block/metal/ingot/iron",
+          "headTexture": "game:block/metal/ingot/iron",
+          "bodyTexture": "game:block/metal/ingot/springsteel",
+          "damageTierBonus": -3,
+          "damageMultiplier": 1.0
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-springsteel-meteoriciron",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-meteoriciron"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-springsteel"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-springsteel-meteoriciron",
+        "attributes": {
+          "splitBodyMaterial": "springsteel",
+          "splitBladeMaterial": "meteoriciron",
+          "headMaterial": "springsteel",
+          "bladeMaterial": "meteoriciron",
+          "bladeTexture": "game:block/metal/ingot/meteoriciron",
+          "headTexture": "game:block/metal/ingot/meteoriciron",
+          "damageTierBonus": -2,
+          "damageMultiplier": 0.98,
+          "bodyTexture": "game:block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-springsteel-meteoriciron",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-springsteel-meteoriciron"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-springsteel",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "springsteel",
+          "splitBladeMaterial": "meteoriciron",
+          "headMaterial": "springsteel",
+          "bladeMaterial": "meteoriciron",
+          "bladeTexture": "game:block/metal/ingot/meteoriciron",
+          "headTexture": "game:block/metal/ingot/meteoriciron",
+          "bodyTexture": "game:block/metal/ingot/springsteel",
+          "damageTierBonus": -2,
+          "damageMultiplier": 0.98
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-springsteel-steel",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-steel"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-springsteel"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-springsteel-steel",
+        "attributes": {
+          "splitBodyMaterial": "springsteel",
+          "splitBladeMaterial": "steel",
+          "headMaterial": "springsteel",
+          "bladeMaterial": "steel",
+          "bladeTexture": "game:block/metal/ingot/steel",
+          "headTexture": "game:block/metal/ingot/steel",
+          "damageTierBonus": -1,
+          "damageMultiplier": 1,
+          "bodyTexture": "game:block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-springsteel-steel",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-springsteel-steel"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-springsteel",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "springsteel",
+          "splitBladeMaterial": "steel",
+          "headMaterial": "springsteel",
+          "bladeMaterial": "steel",
+          "bladeTexture": "game:block/metal/ingot/steel",
+          "headTexture": "game:block/metal/ingot/steel",
+          "bodyTexture": "game:block/metal/ingot/springsteel",
+          "damageTierBonus": -1,
+          "damageMultiplier": 1.0
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "wulksmithingaddons:recipes/grid/weld",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-split-falx-springsteel-springsteel",
+      "ingredientPattern": "E,F,B",
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolblade-falx-springsteel"
+        },
+        "F": {
+          "type": "item",
+          "tags": [
+            "flux"
+          ],
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolbody-falx-springsteel"
+        }
+      },
+      "shapeless": true,
+      "height": 3,
+      "width": 1,
+      "output": {
+        "type": "item",
+        "code": "combatoverhaul:wulk-toolhead-falx-springsteel-springsteel",
+        "attributes": {
+          "splitBodyMaterial": "springsteel",
+          "splitBladeMaterial": "springsteel",
+          "headMaterial": "springsteel",
+          "bladeMaterial": "springsteel",
+          "bladeTexture": "game:block/metal/ingot/springsteel",
+          "headTexture": "game:block/metal/ingot/springsteel",
+          "damageTierBonus": 0,
+          "damageMultiplier": 1.05,
+          "bodyTexture": "game:block/metal/ingot/springsteel"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wulksmithingaddons"
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "co-wulk-assemble-falx-springsteel-springsteel",
+      "ingredientPattern": "T,S",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "combatoverhaul:wulk-toolhead-falx-springsteel-springsteel"
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:blade-falx-springsteel",
+        "quantity": 1,
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "splitBodyMaterial": "springsteel",
+          "splitBladeMaterial": "springsteel",
+          "headMaterial": "springsteel",
+          "bladeMaterial": "springsteel",
+          "bladeTexture": "game:block/metal/ingot/springsteel",
+          "headTexture": "game:block/metal/ingot/springsteel",
+          "bodyTexture": "game:block/metal/ingot/springsteel",
+          "damageTierBonus": 0,
+          "damageMultiplier": 1.05
+        }
+      }
+    }
+  }
+]
